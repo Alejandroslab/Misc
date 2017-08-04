@@ -21,11 +21,12 @@ btckraken=$(curl -s "https://api.kraken.com/0/public/Ticker?pair=BTCEUR" | tr -d
 
 btcgemini=$(curl -s "https://api.gemini.com/v1/pubticker/btcusd" | tr -d '{}"[]' | tr ':,' '\n' | grep -A1 "^c$" | tail -1)
 
-btcbitstamp=$(curl -s "https://www.bitstamp.net/api/v2/ticker/btcusd/" | tr -d '{}"[]' | tr ':,' '\n' | grep -A1 "^c$" | tail -1)
+btcbitstamp=$(curl -s "https://www.bitstamp.net/api/v2/ticker/btcusd/" | tr -d '{}"[]' | tr ':,' '\n' | grep -A1 "^c$" | tail -1) 
 
+btcbittrex=$(curl -s "https://bittrex.com/api/v1.1/public/btc-usd " | tr -d '{}"[]' | tr ':,' '\n' | grep -A1 "^c$" | tail -1)  
 
-
-echo "$spot_price | templateImage=$bitcoin_icon"
+#echo "$spot_price | templateImage=$bitcoin_icon"
+echo "$(printf "%.2f € \n" "$spot_price") | templateImage=$bitcoin_icon"
 echo "---"
 echo "Coinbase | size=13"
 echo "Spot price:  €$spot_price"
@@ -33,14 +34,14 @@ echo "Buy price:    €$buy_price"
 echo "Sell price:    €$sell_price"
 echo "Spread: €(($buy_price-$sell_price))"
 echo "---"
+echo "BTC EUR"
 echo "$(printf "Kraken € %.2f \n" "$btckraken") | size=13"
 echo "---"
-echo "USD"
+echo "BTC USD"
 echo "Bitfinex: €$bitfinex"
 echo "$(printf "Gemini $ %.2f \n" "$btcgemini") | size=13"
 echo "$(printf "Bistamp $ %.2f \n" "$btcbitstamp") | size=13"
-
-
+echo "$(printf "Bittrex $ %.2f \n" "$btcbittrex") | size=13"
 
 # to make a submenu use :echo "--------"
 
