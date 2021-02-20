@@ -1,0 +1,43 @@
+What is RAID
+
+RAIS is intended to guarantee Uptime of your NAS/Server in terms of
+hardaware failure.
+ It is not indended to be a backup!
+
+RAID cannot stop malware(think about ransomware)
+RAID cannot mitigate on site disasters (fire, flood) (for that you need off site backups)
+It cannot prevent also data corruption (only hardware failure)
+
+RAID 0 is taking any number of disks and merging them into one large volume.
+This will greatly increase speeds, as you're reading and writing from multiple disks at a time.
+An individual file can then use the speed and capacity of all the drives of the array.
+The downside to RAID 0 though is that it is NOT redundant.
+
+This means that:
+
+The loss of any individual disk will cause complete data loss. This RAID type is very much less reliable than having a single disk.
+
+
+The point of RAID 1 is primarily for redundancy.
+If you completely lose a drive, you can still stay up and running off the additional drive.
+
+In the event that either drive fails, you can then replace the broken drive with little to no downtime. RAID 1 also gives you the additional benefit of increased read performance, as data can be read off any of the drives in the array.
+
+The downsides are that you will have slightly higher write latency. Since the data needs to be written to both drives in the array, you'll only have the available capacity of a single drive while needing two drives.
+
+RAID 5 requires the use of at least 3 drives (RAID 6 requires at least 4 drives).
+It takes the idea of RAID 0, and strips data across multiple drives to increase performance.
+
+But, it also adds the aspect of redundancy by distributing parity information across the disks. There are many technical resources out there on the Internet that can get down into the details as to how this actually happens.
+
+But in short, with RAID 5 you can lose one disk, and with RAID 6 you can lose two disks, and still maintain your operations and data.
+
+It is worth mentioning that in a RAID 5 or RAID 6 situation, if you lose a drive, you’re going to be seriusly sacrificing performance to keep your environment operational.
+
+Once you replace the failed drive, data will need to be rebuilt out of the parity information. This will take a significant amount of the total performance of the array. These rebuild times continue to grow more and more each year, as drives get larger and larger.
+
+
+RAID 10 requires at least 4 drives and is a combination of RAID 1 (mirroring) and RAID 0 (striping). This will get you both increased speed and redundancy.
+This is often the recommended RAID level if you're looking for speed, but still need redundancy.
+In a four-drive configuration, two mirrored drives hold half of the striped data and another two mirror the other half of the data.
+This means you can lose any single drive, and then possibly even a 2nd drive, without losing any data. Just like RAID 1, you'll only have the capacity of half the drives, but you will see improved read and write performance. You will also have the fast rebuild time of RAID 1.
