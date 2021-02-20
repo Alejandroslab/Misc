@@ -47,7 +47,7 @@ same place of your others backup hard drives/and or NAS, server
 This will avoid concentration risk (imagine the case of fire or flood etc)
 
 Having said this, data could be safe with at least 4 hard drives Backups
-2 locally and 2 to be kept outside of the actual storage place (a warehouse, another office etc)
+2 on site and 2 to be kept outside of the actual storage place (a warehouse, another office etc)
 
 You should perform backups on these drives according to the importance
 of your workflow.
@@ -69,19 +69,19 @@ so it could be:
 
 Snapshots for all (6 days etc)
 
-Top priority data: 2 HD backups every 2-3 day locally (remember that locally
+Top priority data: 2 HD backups every 2-3 day on site (remember that on site
 means that you can have easy access to them but they should be kept in different
 places (not in the same place or room))
-and 2 HD backups to be kept externally every 2 weeks or less (prefereably
+and 2 HD backups to be kept off site every 2 weeks or less (prefereably
 one every 1 week and the other one every 2 weeks)
 You can also add another 3rd HD every 2-3 days but in a different day than the others
 
 
-Middle priority: 2 HD backups every 3-5 day locally and 2 HD Backup to be
-kept externally (1 every month and 1 every 2 weeks)
+Middle priority: 2 HD backups every 3-5 day on site and 2 HD Backup to be
+kept off site (1 every month and 1 every 2 weeks)
 
-Low priority data: 2HD backups every 1 week locally and 2 HD backups to be
-kept externally (1 every month and 1 every month and a half)
+Low priority data: 2HD backups every 1 week on site and 2 HD backups to be
+kept off site (1 every month and 1 every month and a half)
 
 Doing this you should be pretty covered.
 In fact:
@@ -112,6 +112,11 @@ be really less feasible in terms of time) (one way to solve is to send backup
 over internet to another NAS or server in another place and to place automation
 for the scheduling)
 
+remember also that: As a good rule of thumb,
+backups should be performed at least once every 24 hours
+to meet acceptable standards of most organizations. (but it could be measured
+with your workflow)
+
 
 Of course this scheme could be simplified treating Middle priority data and the
 low one as the same and therefore merging the routines.
@@ -119,6 +124,17 @@ low one as the same and therefore merging the routines.
 Or data could be also not categorized at all and treated as top priority.
 In this way you will get a complete backup plan.
 
+
+Finally: remember to test your backup plan!! Simulate a disaster and try to
+recover data ! Do the test at least once every 2 months to be safe
+
 -------
 the most feasible way is to pay AWS or other service provider..
 But if you want to be in full control you have to perform this...
+
+
+Across the industry it is also known the 3-2-1 strategy that means:
+
+3 copies of your Data
+2 different storage types (an HD and a cloud as for example)
+1 copy off site
