@@ -1,0 +1,142 @@
+Test
+
+Backup is made of:
+
+Snapshots
+Backups
+____
+
+First:
+
+Categorize Data in order of importance
+
+1. Top priorty
+2. Middle Priority
+3. Low Priority
+
+The top priority will be the most secured Once
+
+Plan snapshots and retain them for at least 6 days
+
+Snapshots are sort of backups but internal on the same disk.
+They can help in those circumstances in which a folder/file are
+deleted without intention.
+
+With snapshot in place you will be able to recover eassily your
+folder/s or file/s.
+
+But remember that snapshot are not technically a real backup.
+
+If the disks fail you will lose data in the case that you have not
+performed a complete backup on an external hard disk.
+
+
+Therefore you have to:
+
+Plan snapshots and perform them daily or weekly AND:
+
+Plan backups at least weekly accordingly to your workflow
+
+In a NAS backup can be easily scheduled. You can perform (and you should)
+a backup in more than 1 disk. Meaning that probability of loss of Data
+will be spread between the 2 disks as for example.
+
+You should perform also a backup that will be kept outside the
+same place of your others backup hard drives/and or NAS, server
+
+This will avoid concentration risk (imagine the case of fire or flood etc)
+
+Having said this, data could be safe with at least 4 hard drives Backups
+2 on site and 2 to be kept outside of the actual storage place (a warehouse, another office etc)
+
+You should perform backups on these drives according to the importance
+of your workflow.
+
+In a NAS or server backups are often incremental that means that
+only changes will be copied, allowing saving of time in the process.
+
+In a NAS or a server backup management will be easier as
+it is possible to backup only certain folders etc..
+
+
+
+The strategy should be that you have to do backups of your priority
+data more frequently than the other type of data.
+
+so it could be:
+
+-------
+
+Snapshots for all (6 days etc)
+
+Top priority data: 2 HD backups every 2-3 day on site (remember that on site
+means that you can have easy access to them but they should be kept in different
+places (not in the same place or room))
+and 2 HD backups to be kept off site every 2 weeks or less (prefereably
+one every 1 week and the other one every 2 weeks)
+You can also add another 3rd HD every 2-3 days but in a different day than the others
+
+
+Middle priority: 2 HD backups every 3-5 day on site and 2 HD Backup to be
+kept off site (1 every month and 1 every 2 weeks)
+
+Low priority data: 2HD backups every 1 week on site and 2 HD backups to be
+kept off site (1 every month and 1 every month and a half)
+
+Doing this you should be pretty covered.
+In fact:
+In the case of file removal you will have Snapshots
+In the case of hardware failure you will have the first HD backup, in the case
+of failure of this you will have another one (or another 2 if you deploy another HD)
+
+In the case of missing files or failure (very remote probability) of these last HDs
+you will have another 2 HD backups (but with less frequent backups). In this latter case
+data loss could become more probable as backup is less frequent.
+Anyways, the event that will lead to the use of these HDs could be calculate
+as a very rare event (therefore this will be a disaster)
+
+
+Finally if you really care about your data you can have 2 more HD in which
+perform backups every 6 months or every year( but in different months) to be
+kept outside of your city /and or country. But remember that data will
+be retrievable in a very slow way so make sure you have the other
+backups first! (in a sense this will mimick Amazon Glacier..)
+
+As it has been seen, in any case there are still possibilty of data loss. Therefore to
+solve this problem you should keep the time between backups the shortest possible
+with all the consequences in terms of cost/time management
+(as for exapmle that could mean that you should do the backups at least every 2 days
+(or depending on you workflow)
+both the local ones and the external ones even if for these latter one backup could
+be really less feasible in terms of time) (one way to solve is to send backup
+over internet to another NAS or server in another place and to place automation
+for the scheduling)
+
+remember also that: As a good rule of thumb,
+backups should be performed at least once every 24 hours
+to meet acceptable standards of most organizations. (but it could be measured
+with your workflow)
+
+
+Of course this scheme could be simplified treating Middle priority data and the
+low one as the same and therefore merging the routines.
+
+Or data could be also not categorized at all and treated as top priority.
+In this way you will get a complete backup plan.
+
+
+Finally: remember to test your backup plan!! Simulate a disaster and try to
+recover data ! Do the test at least once every 2 months to be safe
+
+-------
+the most feasible way is to pay AWS or other service provider..
+But if you want to be in full control you have to perform this...
+
+
+Across the industry it is also known the 3-2-1 strategy that means:
+
+3 copies of your Data
+2 different storage types (an HD and a cloud as for example)
+1 copy off site
+
+Remember that you should be able to restore your data ASAP!
