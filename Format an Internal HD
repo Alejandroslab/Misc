@@ -1,0 +1,24 @@
+In windows
+Connect the HD
+
+Open disk management. It will appear a message to initialize.
+The possible partition alternatives are: MBR o GPT
+
+Use MBR if you use old Windows like Windows Vista
+
+use GPT if you have an HD with size greater tha 1 tb. Otherwise you will get just 1 tb but will not able to use more than 1 tb
+
+If the pop up does not appear click with right click on 'Disk number' and select initialize disk.
+
+Now right click on new unit and click on 'New simple volume'
+
+Now you can set the desired size until the maximum space available that will be displayed.
+Select a new letter
+Select 'NTFS' and a label
+
+Click on done.
+
+Now it will format the drive (it will take some seconds)
+
+If you have not assigned the total space to the drive you will be able to assign more space doing the same procedure
+starting from creating a 'New simple volume'.
