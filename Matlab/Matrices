@@ -1,0 +1,7 @@
+You can create matrices
+
+A = magic (4)
+
+it will create a random matrix 4x4
+
+it will be saved in workspace

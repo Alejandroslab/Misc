@@ -1,0 +1,17 @@
+To list all the elements of workspace
+
+whos
+
+
+To save workspace
+
+save mywork.mat
+
+this command will allow to save the workspace in the working directory
+
+you can load it with
+
+load mywork.mat
+
+
+Matlab files are called scripts and have the extension '.m'

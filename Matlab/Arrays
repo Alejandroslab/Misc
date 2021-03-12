@@ -13,3 +13,12 @@ x = [1,2,3; 4,5,6]
 transpose matrix
 
 x'
+
+
+TEXT
+
+newtext = 'my text is this one'
+
+to print text
+
+disp('hi')

@@ -1,0 +1,22 @@
+plotting
+
+x= 2y+1
+
+plot(x)
+
+xlabel('x')
+ylabel('y')
+title('Plot of x')
+
+
+some formatting
+
+plot(x, 'r--')
+
+to plot with red dashing
+
+to 3dplot
+
+surf(X,Y,Z)
+
+with subplots you can plot regions
