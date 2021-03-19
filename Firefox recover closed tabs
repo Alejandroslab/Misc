@@ -1,0 +1,22 @@
+When there is not any alternative to recover tabs from menu go to:
+
+help -->Troubleshooting information
+
+click near 'Profile folder' the 'Show in Finder' button
+
+now locate the latest folder, open it
+now locate the folder 'sessionstore-backups' select the .jsonlz4-2020023...
+the number at the end is a date yyyymmdd
+usually you will select the highest in size
+
+
+open this page
+
+https://www.jeffersonscher.com/ffu/scrounger.html
+
+and drop the file.
+ .jsonlz4
+
+now click on 'Scrounge urls'
+
+then click 'save list' to save all the tabs as a list in a .html file.
