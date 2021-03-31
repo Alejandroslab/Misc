@@ -1,0 +1,18 @@
+Per aprire le porte su router Vodafone Station Revolution
+
+Accedere e selezionare modalita esperto
+Poi fare click su tab internet
+Selezionare gestione porte sulla sinistra
+In "Associazione Porte"  cliccare sul "+"
+
+Selezionare e/o inserire nella maschera
+Servizio: personalizzato
+Nome del servizio: (inserire un nome a piacere. Puo anche essere ripetuto. E' un nome di riferimento)
+Dispositivo: selezionare il NAS
+Indirizzo IP Locale: verra autocompilato una volta selezionato il NAS (oppure occorrera inserirlo)
+Protocollo: selezionare tcp o udp
+Tipo porta: selezionare Porta
+Porta pubblica: (inserire numero di porta da aprire. Sara la stessa da inserire in porta locale)
+Porta locale:(inserire numero di porta da aprire. Sara la stessa da inserire in porta pubblica)
+
+Infine cliccare su Salva
