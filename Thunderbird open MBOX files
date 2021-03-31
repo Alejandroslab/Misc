@@ -1,0 +1,24 @@
+install the addon ImportExportTools
+
+to install go to
+
+Open Thunderbird
+
+go to Tools -> Addons
+
+select Extension
+
+search  ImportExportTools
+
+install and restart Thunderbird
+
+now to import MBOX file:
+
+Tools—>ImportExportTools—>Import mbox file
+
+select the MBOX to be imported
+
+remember to select on Thunderbird  a folder like 'Local folder'
+otherwise you will get an error
+
+MBOX is a sort of text file half encrypted

@@ -1,0 +1,33 @@
+Thunderbird change size of fonts
+
+You could create a css file. This only effects Thunderbird. This may seem a little daunting, but it is simple. It requires you to be able to follow instructions, create folders, copy, paste and save files. You do not need to actually write code.
+Make Hidden files and folder visible:
+	• http://kb.mozillazine.org/Show_hidden_files_and_folders
+In Thunderbird:
+	• Help > Troubleshooting Information
+	• click on 'Open folder' button
+a new window opens showing contents of your Profile folder.
+	• Close Thunderbird now - this is important.
+	• Create new folder and call it chrome note the spelling - use a lower case 'c' . It should be in the same place as the 'Mail' folder. See image below as a guide to show where it should be.
+	• open Notepad
+usually located under All Programs > Accessories > Notepad
+	• Copy all the text between lines below and paste it into the Notepad document.
+An example image is below - you can edit to choose size.
+
+/*
+
+* Do not remove the @namespace line -- it's required for correct functioning
+ */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/*
+*Make all the default font sizes eg:14 px:
+*/
+
+   * { font-size: 14px !important; }
+
+
+If this proves to be too small you can edit the 14px to say 16px etc
+	• Save the document as filename userChrome.css in the chrome folder. Note the spelling all lower case except for the 'C'. See image below.
+Restart Thunderbird. 
