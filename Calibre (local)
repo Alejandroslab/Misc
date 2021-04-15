@@ -1,0 +1,7 @@
+remember!
+you cannot place a calibre library
+to a network shared folder (e.g. on a NAS)
+
+if it disconnects (as it happens on Mac)
+Calibre will not work and will ask
+a new location for a calibre library
