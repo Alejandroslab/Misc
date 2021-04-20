@@ -1,6 +1,7 @@
 raspbian
+install iptables-persistent
 
-iptables
+sudo apt-get install iptables-persistent
 
 ________________
 On Debian desktop
@@ -15,8 +16,6 @@ after suspending and restart
 libinput-gestures-setup restart
 
 bluetooth % for bluetooth keyboard
-
-calibre moving libraries
 
 latex files
 _______________-
