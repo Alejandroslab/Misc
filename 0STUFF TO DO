@@ -12,6 +12,7 @@ kdewallet at login disable
 libinput-gestures-setup status
 after suspending and restart
 
+libinput-gestures-setup restart
 
 bluetooth % for bluetooth keyboard
 
