@@ -1,5 +1,6 @@
 RASPBIAN (VPN)
 Change your internal IP’s
+Reset iptables configuration
 install iptables-persistent
 
 sudo apt-get install iptables-persistent
@@ -45,6 +46,8 @@ Install sas (virtual box or other)
 _______________
 
 k3rb340s (testing machine)
+
+CHANGE HOSTNAME
 
 Fix:remove ppa
 
