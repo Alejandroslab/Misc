@@ -10,7 +10,7 @@ DEBIAN SERVER
 
 sql users
 
-
+iCloud in Nextcloud?
 
 ________________
 
@@ -33,9 +33,20 @@ latex files
 
 Sql client to Debian server sql server
 
+R portoflio project (Connecting to r studio server) 
+
+Python docx to replace text in word
+
+Thunderbird changin color to mail background
+
+Install Hadoop (2 testing machine)
+
+Install sas (virtual box or other)
 _______________
 
 k3rb340s (testing machine)
+
+Fix:remove ppa
 
 Sql testing 
 
@@ -45,17 +56,20 @@ Install your owns dynamic dns
 
 Testing hadoop with Debian in docker
 
-R portoflio project
-
 deep learning on available data (training)
 
 python
 
-sas
+
+SAS
+
+Send mail from command line
 
 
 ————————————
 other:
+
+Tab autocompletion in sftp 
 
 freenove dog
 wordpress hosting
