@@ -1,10 +1,22 @@
-raspbian
+RASPBIAN (VPN)
 install iptables-persistent
 
 sudo apt-get install iptables-persistent
+First change your internal ips 
+
+_______________
+
+DEBIAN SERVER
+
+sql users
+
+
 
 ________________
-On Debian desktop
+
+DEBIAN DESKTOP (current)
+
+Full backup (it stops)
 
 xrdp not workign
 
@@ -18,13 +30,22 @@ libinput-gestures-setup restart
 bluetooth % for bluetooth keyboard
 
 latex files
-_______________-
 
-debian server
+Sql client to Debian server sql server
 
-sql users
+_______________
 
-installing hadoop
+k3rb340s (testing machine)
+
+Sql testing 
+
+Alsovpn
+
+Install your owns dynamic dns
+
+Testing hadoop 
+
+R portoflio project
 
 deep learning on available data (training)
 
@@ -32,16 +53,9 @@ python
 
 sas
 
-R portoflio project
 
-installing nextcloud if iptables is working
-nextcloud could also installed in a shared hosting but not all allow the installation
-_______________
-
+————————————
 other:
-
-CHANGE NETWORK ADDRESSES to overcome overlapping networks
-with VPN clients
 
 freenove dog
 wordpress hosting
@@ -50,7 +64,7 @@ text classification
 manjaro and arch linux or gentoo
 
 excel tutorials
-_______________
 
-k3rb340s:
-algovpn
+nextcloud could also installed in a shared hosting but not all allow the installation
+
+Raspberry: email server with postfix 
