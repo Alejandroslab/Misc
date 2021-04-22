@@ -1,8 +1,8 @@
 RASPBIAN (VPN)
+Change your internal IP’s
 install iptables-persistent
 
 sudo apt-get install iptables-persistent
-First change your internal ips 
 
 _______________
 
