@@ -1,0 +1,16 @@
+Usually a domestic router is made of different components and has in its inside different systems:
+
+-a router is a modem
+- it is also a gateway to guarantee access to external networks
+
+-has installed a DNS server
+- has installed a DHCP server
+
+Anyways in your network setup you can separate this things like DNS and DHCP
+And install other you like in any device you like and then deactivate them in the router
+
+Anyways this could require diffferent settings for your devices
+
+For example you can install a DNS server on raspberry PI!
+In order to use it and to not have any network conflict you just have to deactivate the DNS server on your router and then set all your devices to use your DNS on your raspberry (indicating your raspberry local ip in any device’s network setting or just in the one you like to use it)
+
