@@ -1,23 +1,15 @@
-RASPBIAN (VPN)
+ALWAYS FIRST UPDATE ALL YOUR REPOS:
+go to main github folder and run:
 
-Change iptables configuration
+for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
+__________________
+raspbian
 install iptables-persistent
 
 sudo apt-get install iptables-persistent
 
-_______________
-
-OFFICIAL SERVER
-
-sql users
-
-iCloud in Nextcloud?
-
 ________________
-
-DEBIAN DESKTOP (current)
-
-Full backup (it stops)
+On Debian desktop
 
 xrdp not workign
 
@@ -31,46 +23,32 @@ libinput-gestures-setup restart
 bluetooth % for bluetooth keyboard
 
 latex files
+_______________-
 
-Sql client to Debian server sql server
 
-R portoflio project (Connecting to r studio server) 
 
-Python docx to replace text in word
+debian server
 
-Thunderbird changin color to mail background
+sql users
 
-Install Hadoop (2 testing machine)
-
-Install sas (virtual box or other)
-_______________
-
-ServerTesting
-
-Fix:remove ppa
-
-Sql testing 
-
-Alsovpn
-
-Install your owns dynamic dns
-
-Testing hadoop with Debian in docker
+installing hadoop
 
 deep learning on available data (training)
 
 python
 
+sas
 
-SAS
+R portoflio project
 
-Send mail from command line
+installing nextcloud if iptables is working
+nextcloud could also installed in a shared hosting but not all allow the installation
+_______________
 
-
-————————————
 other:
 
-Tab autocompletion in sftp 
+CHANGE NETWORK ADDRESSES to overcome overlapping networks
+with VPN clients
 
 freenove dog
 wordpress hosting
@@ -79,7 +57,7 @@ text classification
 manjaro and arch linux or gentoo
 
 excel tutorials
+_______________
 
-nextcloud could also installed in a shared hosting but not all allow the installation
-
-Raspberry: email server with postfix 
+k3rb340s:
+algovpn
