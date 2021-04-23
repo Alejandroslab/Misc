@@ -2,13 +2,6 @@ ALWAYS FIRST UPDATE ALL YOUR REPOS:
 go to main github folder and run:
 
 for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
-________
-
-RASPBIAN (VPN)
-Change your internal IP’s
-install iptables-persistent
-
-sudo apt-get install iptables-persistent
 
 _______________
 
