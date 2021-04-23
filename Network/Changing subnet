@@ -10,3 +10,5 @@ like:
 10.0.0.0 - 10.255.255.255 or 10.0.0.0/8
 
 other kind of ip will not be allowed
+
+(the range 127.0.0.0 to 127.255.255.255 is just for testing)
