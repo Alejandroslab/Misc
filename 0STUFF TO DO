@@ -2,14 +2,27 @@ ALWAYS FIRST UPDATE ALL YOUR REPOS:
 go to main github folder and run:
 
 for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
-__________________
-raspbian
+________
+
+RASPBIAN (VPN)
+Change your internal IP’s
 install iptables-persistent
 
 sudo apt-get install iptables-persistent
 
+_______________
+
+MAIN (DEBIAN SERVER)
+
+sql users
+
+iCloud in Nextcloud?
+
 ________________
-On Debian desktop
+
+DEBIAN DESKTOP (current)
+
+Full backup (it stops)
 
 xrdp not workign
 
@@ -23,32 +36,46 @@ libinput-gestures-setup restart
 bluetooth % for bluetooth keyboard
 
 latex files
-_______________-
 
+Sql client to Debian server sql server
 
+R portoflio project (Connecting to r studio server)
 
-MAIN (debian server)
+Python docx to replace text in word
 
-sql users
+Thunderbird changin color to mail background
 
-installing hadoop
+Install Hadoop (2 testing machine)
+
+Install sas (virtual box or other)
+_______________
+
+ServerTesting (testing machine)
+
+Fix:remove ppa
+
+Sql testing
+
+Alsovpn
+
+Install your owns dynamic dns
+
+Testing hadoop with Debian in docker
 
 deep learning on available data (training)
 
 python
 
-sas
 
-R portoflio project
+SAS
 
-installing nextcloud if iptables is working
-nextcloud could also installed in a shared hosting but not all allow the installation
-_______________
+Send mail from command line
 
+
+————————————
 other:
 
-CHANGE NETWORK ADDRESSES to overcome overlapping networks
-with VPN clients
+Tab autocompletion in sftp
 
 freenove dog
 wordpress hosting
@@ -57,7 +84,7 @@ text classification
 manjaro and arch linux or gentoo
 
 excel tutorials
-_______________
 
-k3rb340s:
-algovpn
+nextcloud could also installed in a shared hosting but not all allow the installation
+
+Raspberry: email server with postfix
