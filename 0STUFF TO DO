@@ -1,13 +1,13 @@
 RASPBIAN (VPN)
-Change your internal IP’s
-Reset iptables configuration
+
+Change iptables configuration
 install iptables-persistent
 
 sudo apt-get install iptables-persistent
 
 _______________
 
-DEBIAN SERVER
+OFFICIAL SERVER
 
 sql users
 
@@ -45,9 +45,7 @@ Install Hadoop (2 testing machine)
 Install sas (virtual box or other)
 _______________
 
-k3rb340s (testing machine)
-
-CHANGE HOSTNAME
+ServerTesting
 
 Fix:remove ppa
 
