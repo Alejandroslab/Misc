@@ -3,19 +3,11 @@ go to main github folder and run:
 
 for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
 
-_______________
 
-MAIN (DEBIAN SERVER)
-
-sql users
-
-iCloud in Nextcloud?
-
-________________
-
+_______________________
 DEBIAN DESKTOP (current)
 
-Full backup (it stops)
+Full Backup (it stops)
 
 xrdp not working
 
@@ -43,7 +35,7 @@ Install Hadoop (2 testing machine)
 Install sas (virtual box or other)
 _______________
 
-ServerTesting (testing machine)
+SERVERTESTING (testing machine)
 
 Fix:remove ppa
 
@@ -63,6 +55,14 @@ python
 SAS
 
 Send mail from command line
+
+_______________
+
+MAIN (DEBIAN SERVER)
+
+sql users
+
+iCloud in Nextcloud?
 
 
 ————————————
