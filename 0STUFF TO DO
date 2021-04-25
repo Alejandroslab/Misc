@@ -7,30 +7,29 @@ for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
 _______________________
 DEBIAN DESKTOP (current)
 
-Full Backup (it stops)
+Full Backup (it stops) (Clonezilla)
 
 xrdp not working
 
 kdewallet at login disable
 
-libinput-gestures-setup status
+libinput-gestures-setup restart
 after suspending and restart
 
-libinput-gestures-setup restart
-
 bluetooth % for bluetooth keyboard
+
 
 latex files
 
 Sql client to Debian server sql server
 
-R portoflio project (Connecting to r studio server)
+R portfolio project (Connecting to r studio server)
 
 Python docx to replace text in word
 
-Thunderbird changin color to mail background
+Thunderbird changing color to mail background
 
-Install Hadoop (2 testing machine)
+Install Hadoop (second testing machine)
 
 Install sas (virtual box or other)
 _______________
@@ -77,6 +76,5 @@ manjaro and arch linux or gentoo
 
 excel tutorials
 
-nextcloud could also installed in a shared hosting but not all allow the installation
 
 Raspberry: email server with postfix
