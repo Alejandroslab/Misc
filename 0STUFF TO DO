@@ -37,22 +37,20 @@ _______________
 
 SERVERTESTING (testing machine)
 
-Fix:remove ppa
-
 Sql testing
-
-Algovpn
-
-Install your owns dynamic dns
-
-Testing hadoop with Debian in docker
 
 deep learning on available data (training)
 
 python
 
+Testing hadoop with Debian in docker
 
 SAS
+
+Algovpn
+
+Install your own dynamic dns
+
 
 Send mail from command line
 
@@ -60,7 +58,7 @@ _______________
 
 MAIN (DEBIAN SERVER)
 
-sql users
+sql users (after testing)
 
 iCloud in Nextcloud?
 
