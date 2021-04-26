@@ -2,6 +2,9 @@ Usually a domestic router is made of different components and has in its inside 
 
 -a router is a modem
 - it is also a gateway to guarantee access to external networks
+A router and a gateway are essentially the same. The difference stays in the term default gateway. This because in a network you can have multiple routers (“gateways”) 
+but only one can be the default that is the one that connect to the external networks
+
 
 -has installed a DNS server
 - has installed a DHCP server
