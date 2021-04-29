@@ -1,0 +1,11 @@
+If you do not set up a signature your mail will be see as:
+
+text
+<end>
+
+if you want to override that just set a proper signature in settings!
+test it sending an email
+
+then remember to leave the font as 'Variable Width'
+this will allow the receiver the e-mail as it was sent by Outlook (with Calibri font)
+basically will use the receiver' settings to see the e-mail
