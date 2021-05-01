@@ -31,7 +31,6 @@ Thunderbird changing color to mail background
 
 Install Hadoop (second testing machine)
 
-Install sas (virtual box or other)
 _______________
 
 SERVERTESTING (testing machine)
@@ -44,7 +43,7 @@ python
 
 Testing hadoop with Debian in docker
 
-SAS
+SAS (cli) 
 
 Algovpn
 
@@ -59,7 +58,6 @@ MAIN (DEBIAN SERVER)
 
 sql users (after testing)
 
-iCloud in Nextcloud?
 
 
 ————————————
