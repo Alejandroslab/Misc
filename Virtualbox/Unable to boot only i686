@@ -1,0 +1,7 @@
+This error:
+
+this kernel requires an x86-64 CPU, but only detects an i686 CPU, unable to boot
+
+just go to settings and choose the OS version with 64bit
+
+this could occur when you try to boot a iso 64 bit when in the setting is set as 32 bit or viceversa

@@ -1,0 +1,7 @@
+you can see this appears when running e.g. KDE Neon
+
+to fix this just go to settings ->display ->graphics controller
+
+and change the controller from VMSVGA to VBoxVGA
+
+done! (Click ok even if any warning appears)
