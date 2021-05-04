@@ -7,8 +7,6 @@ for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
 _______________________
 DEBIAN DESKTOP (current)
 
-Full Backup (it stops) (Clonezilla)
-
 xrdp not working
 
 kdewallet at login disable
@@ -20,6 +18,7 @@ bluetooth % for bluetooth keyboard
 
 
 latex files
+
 
 Sql client to Debian server sql server
 
