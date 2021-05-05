@@ -18,17 +18,19 @@ bluetooth % for bluetooth keyboard
 
 perl warning setting local failed fix
 
-
 latex files
 
 
-Sql client to Debian server sql server
+Sql client to Server Testing
 
 R portfolio project (Connecting to r studio server)
 
 Python docx to replace text in word
 
 Thunderbird changing color to mail background
+
+_______________
+ALPHA CENTAURI
 
 Install Hadoop (second testing machine)
 
@@ -42,7 +44,7 @@ deep learning on available data (training)
 
 python
 
-Testing hadoop with Debian in docker
+Testing hadoop with Alphacentauri
 
 SAS (cli)
 
@@ -52,7 +54,6 @@ Install your own dynamic dns
 
 
 Send mail from command line
-
 
 _______________
 
@@ -68,7 +69,6 @@ other:
 Tab autocompletion in sftp
 coloured terminal
 ssh disconnects how to avoid keep it connected
-
 
 freenove dog
 wordpress hosting (on subdomain)
