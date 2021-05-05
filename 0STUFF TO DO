@@ -42,7 +42,7 @@ python
 
 Testing hadoop with Debian in docker
 
-SAS (cli) 
+SAS (cli)
 
 Algovpn
 
@@ -75,3 +75,5 @@ excel tutorials
 
 
 Raspberry: email server with postfix
+
+multiserver: hostname not recognized probably due to Pihole DNS
