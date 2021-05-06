@@ -1,0 +1,9 @@
+mount the vmtools cd
+then extract it with
+
+tar -zxvf ..
+
+then open the folder and run the script
+
+you will be asked some questions regarding where you want e.g. install the application
+just press enter to leave the defaul answers (in this case apps will be installed by defaul in /usr/bin)
