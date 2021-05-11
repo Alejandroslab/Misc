@@ -1,0 +1,15 @@
+when you are connected to a VPN provider such as NordVPN etc, then
+you cannot access to your local resources with your hostnames
+
+to link your hostnames to your local resources (ip) you can specify them in the hosts
+file
+
+in mac as in linux you will find it here:
+
+/etc/hosts
+
+add your ip and hostname like
+
+192.168.1.10 mypc
+
+save and exit and immediately the hostname will be recognized 
