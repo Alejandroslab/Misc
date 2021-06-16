@@ -1,0 +1,15 @@
+if you want to access your local resources you will notice
+
+that your IP is differnt than the others one of the network
+
+this because your network adapter is set up as NAT
+
+In order to have access you have to go to
+virtualbox preferences then select
+'Devices'->'Network'´->'Network Settings'
+
+on 'Attached to' select 'Bridged Adapter'
+and the name of the adapter that can be the same that you use in your host.
+
+reboot (eventually your VM) and you are done!
+you will now have the same ip range of the other devices of your network
