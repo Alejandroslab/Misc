@@ -1,0 +1,12 @@
+Open cmd with admin privileges (not powershell)
+then run:
+
+bitsadmin /transfer cs-cli https://git.io/coursier-cli-windows-exe "%cd%\cs.exe"
+
+.\cs --help
+
+to install Scala you will therefore first install Coursier that will install all the necessary dependecies
+
+cs install scala3-compiler
+
+cs install scala3-repl
