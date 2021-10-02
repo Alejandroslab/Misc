@@ -1,0 +1,25 @@
+Analogic is referred to the "analogy" that the instruments of a measurement performs
+
+like the needle position of a balance to measure weight
+
+Analg representation of data are very hard for computers to be understood
+
+Therefore a digital system has been introduced
+
+All data is represented as a sequence of 0s and 1s.
+
+In Computing to represent numbers has been adopted the binary numnbers system
+THis means that only 2 symbols are used (therefore binary)
+
+A single number in a binary number is called a bit (or binary digit)
+
+Bits in sets of eight are called bytes.
+
+It is also used hexadecimal as the binary system could not so easy to remember
+
+The process of translating data into a digital format is known as encoding. When diital data is interpreted it is called decoding
+
+For text to map a character or symbol to a sequence of bits it is used the ASCII system (only for English)
+
+The programs will interpret the binary data accordingly to their use as a sequence of binary can be
+seen as text, color or a number or anything else (music, videos, etc)
