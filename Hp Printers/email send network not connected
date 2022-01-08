@@ -1,0 +1,10 @@
+When you want to send a scanned file
+Directly from the printer but it pops up the error “network not connected”
+
+Just try to change the DNS server from Automatic to Manual and set an alternative DNS like OpenDNS address
+208.67.220.220
+
+Leaving the main address as your router one
+
+Then it should work 
+Another workaround is to change even the main DNS address with an OpenDNS 
