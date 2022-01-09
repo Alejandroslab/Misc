@@ -1,0 +1,15 @@
+To resize the display accordingly to your monitor you must install the Guest Additions
+Just insert the virtual cd and install it (for Windows 11 it is sufficient VBWindowsAdditions as for Windows 10)
+
+After that reboot as required
+At the start you will be sure that guest additions have been installed by the mouse integration
+
+You may not see the automatically resize of the screen
+To do that you must check your Display settings:
+
+You have to set at least 128 mb to the video card !
+
+Otherwise it will not work
+
+Then go to your guest os (I tried in Windows) go to Display Settings
+and set the right resolution!
