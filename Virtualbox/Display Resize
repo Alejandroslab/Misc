@@ -13,3 +13,6 @@ Otherwise it will not work
 
 Then go to your guest os (I tried in Windows) go to Display Settings
 and set the right resolution!
+
+(You do not need to change the video card. You can leave VBoxVGA
+You do not even need to enable 3d acceleration)
