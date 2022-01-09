@@ -1,0 +1,19 @@
+Download VmWare Center Converter
+
+run it on the phisical machine you want to convert
+
+Follow the instructions
+
+THe program will take a while (almost 1 hour) and then it will create the .vdmk that you will be able
+to import in virtualbox as virtual disk of another virtual os
+
+Just create a new vm with the same os that the physical machine
+Select as virtual hard disk the .vdmk that has been created
+
+Check you settings (Enable APIC), network Settings
+
+Then run it!
+
+You will find the exact copy of your physical machine!
+
+Now you can install Guest Additions!
