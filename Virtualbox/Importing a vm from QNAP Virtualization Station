@@ -1,0 +1,10 @@
+Sometimes when you need to import a vm from Qnap Virtualization station you may need to adjust the vm settings correctly
+This is true if you have a server version like centos
+
+From QNAP Virtualization Station you know that sometimes Virtio drivers are used
+
+Therefore some system may not boot
+
+In order to be able to boot them just go to settings, go to Storage, select 'Controller: SCSI' and set the type as 'virtio-scsi'
+
+This will allow you to boot the system 
