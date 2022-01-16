@@ -1,0 +1,5 @@
+Use the cut command:
+
+command | cut -c1-8
+
+This will select from the first character to the eightieth  
