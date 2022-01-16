@@ -1,0 +1,14 @@
+The first command is 'echo'
+
+echo hello
+
+This basically print the words on the right
+
+If you want to run a command
+
+echo $(ls)
+
+If you run this you will see that is the same of running 'ls'
+
+You can also include it in double quotes
+echo "The date is $(date)"
