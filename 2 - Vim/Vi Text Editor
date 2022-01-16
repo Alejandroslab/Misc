@@ -1,0 +1,53 @@
+Vi commands (pronounced 'vee eye')
+
+vi test.txt
+
+after opening to write some text you have to enter in 'insert mode'
+
+you can do that pressing the 'i' key
+
+try typing some words
+
+then press the 'ESC' key to exit 'Insert mode'
+
+now to save the text type
+
+:w
+
+and press enter
+
+to quit:
+
+:q
+
+done!
+
+remember to press the 'i' key to enable 'insert mode' or you will do a mess!
+
+to move the cursor:
+
+To move left, press h .
+To move right, press l .
+To move down, press j .
+To move up, press k .
+
+to start selecting press v and move with h,l,j,k
+you can use also ctrl + v to select a block
+
+press d to delete or also canc
+
+0 to go to the beginning of the line
+$ to go to the end of the line
+G to go to the last line of the file
+
+y to copy
+p to paste
+d to cut
+
+
+
+_____
+to quickly save and exit
+press ESC then
+:wq
+done!
