@@ -1,0 +1,9 @@
+alias myscript='./myscript.sh'
+
+or:
+
+alias myscript='source ./myscript.sh'
+
+or
+
+alias myscript='. ./myscript.sh'
