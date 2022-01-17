@@ -1,0 +1,19 @@
+If you want to check your DNS and if it is working properly just use nslookup
+
+nslookup (from name server lookup) is a network administration command-line tool for querying the Domain Name System (DNS) to obtain the mapping between domain name and IP address, or other DNS records.
+
+it is a command.
+You can use it:
+
+nslookup myserver
+
+or:
+
+nslookup myserver.local
+
+or you can use it interactively just type
+
+nslookup
+
+Now the terminal or cmd in Windows will enter in another console
+in which you can test any machine you want and check if the hostname is pointig to the right machine 
