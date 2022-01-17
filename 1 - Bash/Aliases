@@ -39,7 +39,21 @@ A fun one:
 
 alias please = 'sudo'
 
+alias serv="ssh mylogin@myserv.com"
 
+alias work="cd /Users/myname/Sources/mycompany/myproject"
+
+
+
+
+
+alias ":q"="exit"
+
+
+
+
+
+    alias ..='cd ..'
 Others:
 
     ...=../..
