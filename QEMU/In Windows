@@ -1,0 +1,5 @@
+Just download qemu for windows and add it to the PATH then run in a specific folder:
+
+qemu-system-x86_64.exe -boot d -cdrom .\ubuntu-20.04.2.0-desktop-amd64.iso -m 2048
+
+where you have placed the ubuntu iso
