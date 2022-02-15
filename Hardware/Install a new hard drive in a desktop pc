@@ -1,0 +1,29 @@
+Just be sure to have the sata cable for data and the power cable
+These are 2 cable that from the motherboard go directy to the hard drive pins
+
+Power off your pc and open the case.
+Then look for the hard drives ared.
+Take your hd and first plug in your power cable. This is usually larger than the data cable and it is on a cable that is shared among all the hard drives. You will see that there are more heads on the same long cable. This because the power cable is shared among all the hd's.
+
+Then plug the sata data cable (the one with a shorter head) to your new hard drive
+The data cable will be directly connected to the motherboard. It will not have any other head. Just 2 heads like a normal cable.
+
+Finally place your hard drive in a safe place.
+Usually some desktop pc have some sort of bays that are plastic envelopes that will allow you to firmly secure your HD inside the PC case.
+(You may need to plug some screws in the lateral sides of the hard drives)
+
+and then DONE
+
+Power up your pc and after windows loads up you will be able to see your new hard drive
+Open 'Create or Format disk partition' (the application is called something like that. It allows you to manage your hd's )
+You will see then the 'not allocated space' (with a black label) that will have the size of your new HD
+Then Windows will prompt to choose between MBR and GPT partition table
+
+Choose MBR and format the non allocated space as you like (like NTFS). Assign a letter and done!
+If you have already assigned some drive letters remember to change the letter otherwise you will not be able to access your hd correctly
+
+
+Troubleshooting: If you are not able to see the non allocated space then restart your pc and try again
+If you still cannot see it then restart your pc and enter in the bios.
+Look for SATA drives. You will see the list of your hd's recognised by the motherboard
+After that you may need some other Troubleshooting stuff that I have not experienced as I have not encountered any trouble with my hd's
