@@ -1,0 +1,10 @@
+You can plug a x8 card in a x16 slot and viceversa 
+
+No matter if some pin are not connected (the case of a x16 card on a x8 slot)
+
+And overall, no matter if a x8 card is on a x16 slot (some pins will be empty)
+
+It will work anyways!
+
+The only thing is that the less the Pin (that is less the number 4-8-16) and less will be the speed 
+
