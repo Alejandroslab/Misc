@@ -1,0 +1,8 @@
+This works only on suspended mode NOT when shutdown
+
+At least this holds for any modern system that will not allow to keep on the Ethernet Card
+(physically you will not see any led in the LAN port when shutted down)
+
+To enable it be sure to enable the option on BIOS and then in the Network Settings for the adapter
+
+Set Energy Savin and 'Wake with a magic packet'
