@@ -1,0 +1,3 @@
+The NICs must each have a separate IP-address, these should normally be in separate subnets.
+
+The exception would be when you are using something such as channel bonding or some hot-failover redundancy system.
