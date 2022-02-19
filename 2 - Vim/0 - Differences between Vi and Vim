@@ -1,1 +1,5 @@
 Vim is basically and improved vi 
+
+Vim allows to move with the arrow keys while vi does not allow to do that (you must use j,k etc )
+
+Therefore it is probably better to install vim
