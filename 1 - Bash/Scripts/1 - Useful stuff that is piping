@@ -1,0 +1,26 @@
+when scripting it is useful to save time using the piping
+
+In particulare you can do this:
+
+echo 'Hello!' | tee mynewscript.sh
+
+this will create a file called 'mynewscript.sh' and will fill it with the text after echo command
+
+of course you can just plug in a command 
+
+
+echo 'ls' | tee mynewscript.sh
+
+and then make it executable
+
+sudo chmod+x mynewscript.sh
+
+
+Now if you have already that file the text will REPLACE the existing content
+
+to just append you need to put -a option after 'tee'
+
+
+echo 'ls' | tee -a mynewscript.sh
+
+
