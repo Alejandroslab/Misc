@@ -5,3 +5,10 @@ sudo chmod+x
 then you can edit the script and it will run
 
 No necessary to remake executable again!
+
+
+
+To run the script just:
+
+./myscript
+
