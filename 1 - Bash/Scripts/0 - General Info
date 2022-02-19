@@ -1,0 +1,7 @@
+After you make executable a script with 
+
+sudo chmod+x 
+
+then you can edit the script and it will run
+
+No necessary to remake executable again!
