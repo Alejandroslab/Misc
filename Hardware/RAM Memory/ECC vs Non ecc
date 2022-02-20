@@ -1,0 +1,6 @@
+Not that much differen tbh
+
+To check if you have a ECC ram physically just have a look to the number of black chips
+If they are 9 or more (odd number) then the memory ECC
+
+conversely if they are 8 (even number) then the memory is not ECC
