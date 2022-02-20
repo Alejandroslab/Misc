@@ -1,0 +1,16 @@
+DIMM tells us a lot about the mechanical and electrical properties of of the device and when coupled with a particular generation of memory provides for mechanical compatibility. Any DDR3 DIMM can be inserted into any DDR3 DIMM slot. Derivative forms such as SO-DIMM, MicroDIMM, and UniDIMM may contain the exact same chips but are mechanically incompatible.
+
+
+
+Inside of the DIMM form factor are several different but closely related electrical and logical interfaces.
+
+First is the unbuffered DIMM, or UDIMM. Unbuffered DIMMs expose all signals from the SDRAM ICs (the memory chips) to the IO bus. There is no intermediary.
+
+Next is the registered DIMM, or RDIMM. Registered DIMMs buffer the command and clock signals as these experience a much greater electrical load than the address and data signals. This allows more memory ranks to be connected to the same bus. RDIMMs are used in most servers and workstations.
+
+Next is the load-reduced DIMM, or LRDIMM. Load Reduced DIMMs buffer everything in both directions (upstream and downstream from the memory controller). LRDIMMs are used in extremely high end servers with massive amounts of memory.
+
+Both RDIMMs and LRDIMMs contain additional onboard circuitry to buffer the signals whereas UDIMMs do not. UDIMMs, RDIMMs, and LRDIMMs all have the same pinout and are mechanically compatible. While consumer platforms typically only accept UDIMMs and only high end servers accept LRDIMMs they are mechanically compatible. It is possible to insert a DDR3-LRDIMM into any DDR3-DIMM slot, but there's a good chance that the firmware will simply refuse to initialize it and thus refuse to boot. Servers and workstations on the other hand can use either UDIMMs, RDIMMs, or LRDIMMs (if supported).
+
+
+In consumer parlance, UDIMM is often used synonymously with DIMM.
