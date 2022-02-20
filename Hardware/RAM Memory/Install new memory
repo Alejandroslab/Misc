@@ -1,0 +1,28 @@
+When you have multiple slots remember to install following the instruction of the manufacturer
+
+Otherwise you will lose time and eventually your pc will not boot (until you do not insert it properly)
+
+Always install DIMM (desktop) or SODIMM (laptop) according to the instructions
+
+You will have to follow the slots order
+
+(like sometimes they are plugged in alternatively jumping a slot
+therfore you will plug like: the first and the third slot then the sixth and the eight and so on. Just follow instructions)
+
+If you do not have instruction remmeber that in a possible 8 slots environment you will have
+
+Number assigned   Position from top to bottom
+Slot n. 1       first Slot
+Slot n. 5       second slot
+Slot n. 2       third slot
+Slot n. 6       fourth slot
+
+Slot n. 8      fifth slot
+Slot n. 4       sixth slot
+Slot n. 7       seventh slot
+Slot n. 3       eight slot
+
+You will always need to fill the Slot n.1,2 first (that are the first and the third from top)then the 3 and 4 then the 5 and 6
+(that are positioned from the top as second and fourth slot)
+
+If you install like you want the system will not boot
