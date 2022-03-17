@@ -1,6 +1,8 @@
 #A list of possible aliases
 #copy this file in your ~/.bashrc file if in linux or ~/.zshrc file if in #macos catalina or newer IF YOU WANT TO MAKE THEM PERMANENT
 
+REMEMBER: if you create an alias that is preexinsting you will overwrite it!
+
 #An alias to naviage up one directory level
 alias up='cd ..'
 
