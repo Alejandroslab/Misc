@@ -1,0 +1,12 @@
+myvariable="Hi this is my variable"
+
+echo $myvariable
+
+this will only availbe on your bash session
+
+if you want to expand to any other session then run:
+
+export myvariable="Hi this is my variable"
+
+with 'export' you will be able to export the variable in any session you open
+
