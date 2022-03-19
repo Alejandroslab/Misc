@@ -1,0 +1,3 @@
+cp myfolder -r destinationfolder
+
+with the -r you will copy recursively
