@@ -1,0 +1,4 @@
+
+cp myfile .
+
+will copy the file called 'myfile' in the same current directory
