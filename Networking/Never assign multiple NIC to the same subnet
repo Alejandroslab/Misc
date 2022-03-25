@@ -1,0 +1,23 @@
+A subnet is 192...or 172... or 10....
+
+
+An ip address range is : 192.168.1.1-192.168.1.255
+
+If I use the same subnet for different NICs the system may make conflicts 
+
+Using multiple NICs on the same subnet is the #1 cause of connectivity issues on multi-NIC systems. 
+
+While some OSs may be able to gracefully handle the presence of multiple NICs on one subnet, 
+
+others may mistakenly attempt to send packets out of the wrong interface. 
+
+You can remedy this issue by statically assigning one NIC (and the other networked computers attached to that NIC) 
+
+to the 192.168.x.x range with subnet mask 255.255.0.0, 
+
+and another NIC on the 10.0.x.x range with subnet mask 255.255.0.0. 
+
+
+Note that this is just one possible configuration, any combination of two or more different subnets will work. 
+
+It is recommended that you use one of the designated private IP address ranges to avoid conflicts with public servers on the internet.
