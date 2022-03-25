@@ -3,3 +3,20 @@ Address ranges to be use by private networks are:
     Class A: 10.0.0.0 to 10.255.255.255
     Class B: 172.16.0.0 to 172.31.255.255
     Class C: 192.168.0.0 to 192.168.255.255
+
+some different subnets for class A are 10.0.x.x and 10.1.x.x
+
+some different subnets for class B are 172.16.x.x and 172.23.x.x 
+
+some different subnets for class C are 192.168.x.x and 192.68.50.x
+
+
+If you have a system with multiple NIC be sure that the 2 NICS are connected to different subnes!
+
+Follow also other tips inside this repo!
+
+
+
+the thing really important if you want to stay in private networks, is that you must stay in these intervals
+
+Any other IP is considered public
