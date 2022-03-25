@@ -21,3 +21,15 @@ and another NIC on the 10.0.x.x range with subnet mask 255.255.0.0.
 Note that this is just one possible configuration, any combination of two or more different subnets will work. 
 
 It is recommended that you use one of the designated private IP address ranges to avoid conflicts with public servers on the internet.
+
+
+One of the most common scenarios resulting in multiple NICs being assigned to the same subnet is when both a wired and wireless interface 
+
+are used to connect to the same network. 
+
+
+Once again, while some OSs may handle this case gracefully, 
+
+it is a best practice to either configure the wired and wireless networks to exist on different subnets 
+
+or to disable one network interface when using the other.
