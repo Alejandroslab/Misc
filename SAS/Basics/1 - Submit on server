@@ -1,0 +1,7 @@
+To run code on server you must use the command 'RSUBMIT' that you can set up in your SAS environment
+
+or you can also use code with:
+
+rsubmit;
+......
+endrsubmit;
