@@ -1,11 +1,14 @@
-A subnet is 192...or 172... or 10....
-
-
-An ip address range is : 192.168.1.1-192.168.1.255
-
 If I use the same subnet for different NICs the system may make conflicts 
 
+
+
 Using multiple NICs on the same subnet is the #1 cause of connectivity issues on multi-NIC systems. 
+
+
+A very common multi-NIC system is the machine that has wifi and also ethernet connection and that is connected to both
+
+
+
 
 While some OSs may be able to gracefully handle the presence of multiple NICs on one subnet, 
 
