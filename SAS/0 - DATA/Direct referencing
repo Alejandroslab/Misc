@@ -1,0 +1,9 @@
+You can use:
+
+DATA 'C:\\myfolder\mysasprogram';
+  Miless = 26.22
+  Kilometers=1,61.Miles
+RUN;
+
+Librefs are temporary but this data set is permanente because it is not the WORK Library
+
