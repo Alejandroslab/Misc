@@ -1,0 +1,11 @@
+WORK.TEST
+The first level (work) is called libref (or data library reference)
+the second level is the member 
+
+A libref is a location
+
+A SAS data library is a collection of SAS data sets residing in the same location 
+
+a libref is a nickname for that location 
+
+Libref cannot be longer than 8 characthers and member names can be up to 32 characters 
