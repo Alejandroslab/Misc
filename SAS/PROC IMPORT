@@ -1,0 +1,7 @@
+PROC IMPORT DATAFILE = myfile_or_path_to_file OUT = mydataset
+DBMS = identifier REPLACE;
+
+/*----------------------------*/
+replace tells SAS to replacce if it already exist
+
+common dbms identifiers: excel, xls, xlsx

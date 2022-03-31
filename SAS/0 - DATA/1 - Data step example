@@ -1,0 +1,11 @@
+DATA test;
+  set = mylibrary.mytable;
+  where id=100;
+RUN;
+
+this will create a sas dataset called test from the table called 'mytable' that is available in the library 
+'mylibrary'
+
+You can also put conditions as 'where' as in sql
+
+therefore this code will extract all the data from the table where id=100
