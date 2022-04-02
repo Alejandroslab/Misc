@@ -1,0 +1,38 @@
+Everything starts with the source code that is the code written by the developer
+
+then to be able to install it you need to build it.
+
+In C buildign consists in several parts:
+
+1. preprocessing
+2. testing
+3. compiling 
+4. testing
+5. linking files and associating stuff
+
+In particular compiling is the part that will convert the source code in machine code (01010101000...)
+that is the low level language that the machine knows
+
+(assembly is another low level code used in developing firmwares for hardware. It is a little more elevated than machine code but still low level.
+This is the language used to be run on CPUs)
+
+
+
+At the end of the build process you will get the binary that is the program execeutable (in windows the .exe) that you can finally run in the machine 
+
+
+
+In the AUR package manager (AUR: Arch User Repository) you will get a lot of software written by anyone (even not verified code and developers) that must be compiled before run
+This is different from other package managers like apt in ubuntu where there are mantainers and the code is already compiled
+
+(you can have precompiled code with Chaotic Aur by the way...)
+
+In Arch you have a package manager called Pacman but Pacman only handles updates for pre-built packages in its repositories. 
+
+AUR packages are redistributed in form of PKGBUILDs and need an AUR helper to automate the re-build process. (these helpers will search, download and/or search and build)
+
+However, keep in mind that a rebuild of package may be required when its shared library dependencies are updated, 
+not only when the package itself is updated. 
+
+Some well known package helpers: yay, trizen 
+You can also have graphical helpers like: pamac and octopi
