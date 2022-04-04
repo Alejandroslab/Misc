@@ -20,3 +20,9 @@ Go to F5 and type:
 next explorer; refresh
 (you do not need to put the last semicolumn )
 done (to test it you do not need to exit 'keys' column)
+
+In F5 you must see the command 'wpgm'.
+This is a command that changes the active window to the editor windows that
+was most recently edited.
+
+Therefore it is safe to replace it

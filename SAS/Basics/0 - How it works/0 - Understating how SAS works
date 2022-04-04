@@ -1,0 +1,20 @@
+SAS is modular
+The installation is composed by several differnent components
+
+The basic one is SAS base who comes installed with "display manager"
+
+Display manager is the GUI
+
+You can run commands in SAS writing code
+
+commands are like:
+
+proc...;
+
+run;
+
+or
+
+data ...;
+
+run;

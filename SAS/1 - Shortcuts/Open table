@@ -1,0 +1,3 @@
+dm "viewtable Work.Test";
+
+this will open the 'Test' table under the 'Work' librayr
