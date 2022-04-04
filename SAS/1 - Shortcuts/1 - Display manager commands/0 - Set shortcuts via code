@@ -6,4 +6,13 @@ This will set the shortuct between quote '' with the key 'F12'
 
 You can set any particular shortcut with commands. The only limit is that you must set a shortcut not very common like F1, F2,or shift + f2 etc as these are usually reserved to the OS and SAS will not run them
 
-wpgm is the enhanced editor
+It is always better to inlcude the double quotes inside the single quotes as we may have nested commands:
+
+dm 'post "this is a message"';
+
+and as this command will not work:
+
+dm "post "this is a message"";
+
+
+As we may need to nest other quotes it is better that the first dm command wil run with single quotes ''
