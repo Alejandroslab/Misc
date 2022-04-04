@@ -1,2 +1,44 @@
-the possible list of commands for shortcut are easily retrivable searching: 
+the possible list of commands for shortcut are easily retrivable searching:
 SAS Commands under Windows
+
+Anywyas the commands are generally composed by:
+an action and the object
+
+YOu can use the code via 'dm' or the gui setting the shortcuts
+
+The DM statement will programmatically issue Display Manager commands. The commands your program will issue are
+
+COMMON ACTIONS:
+
+next         makes a window active
+end           does various actions based on active window:
+                    in the 'viewtable window', closes the window
+                    in the 'editor' window, submits the code
+                    in the 'log' window, switches to editor
+clear         delete all the content of the selected object (or you can use 'clea')
+
+submit       submit the contents of the editor for execution (editor must
+ be the active window)
+
+COMMON OBJECTS
+viewtable    opens/focus on the viewtable window
+editor       opens/focus on the editor window
+wpgm          opens/focus on the enhanced editor window
+log           opens/focus on the log window
+output         opens/focus on the output window
+output         opens/focus on the explorer window
+
+
+some possible commands:
+
+next viewtable
+clear log
+next editor
+end (when entered in the editor will submit or run the code)
+
+
+you can also chain commands with the use of the semicolumn ';'
+some other examples:
+
+next viewtable; end; next editor
+with this focus will change to the table, then dm will close the table and will focus on the editor

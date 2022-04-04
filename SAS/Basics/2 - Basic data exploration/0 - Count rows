@@ -1,0 +1,6 @@
+to count rows of a table in sas you have to sas a proc sql:
+
+proc sql;
+select count(*)
+from mylibrary.mytable;
+quit;
