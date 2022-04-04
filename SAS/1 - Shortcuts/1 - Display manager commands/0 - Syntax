@@ -12,3 +12,9 @@ therefore:
 you can set:
 
 log; clear
+
+If you do not want to active the log window therefore:
+
+log clear
+
+or clear log
