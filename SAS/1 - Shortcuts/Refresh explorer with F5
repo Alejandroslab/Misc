@@ -10,7 +10,7 @@ You can transpose this code to your 'keys'
 
 got to the top bar and search 'keys'
 
-the keys column will appear 
+the keys column will appear
 
 Now in any of the shortcuts provided we can type in a SAS command
 
@@ -18,5 +18,5 @@ Now in any of the shortcuts provided we can type in a SAS command
 Go to F5 and type:
 
 next explorer; refresh
-
+(you do not need to put the last semicolumn )
 done (to test it you do not need to exit 'keys' column)

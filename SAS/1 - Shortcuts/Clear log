@@ -1,0 +1,10 @@
+You can clear log clickin on the log window
+and pressing ctrl+e
+
+you can also set a shortcut as the command in SAS is:
+
+dm "log; clear;"
+
+therefore in the keys section just type:
+
+log; clear
