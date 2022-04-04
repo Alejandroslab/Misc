@@ -1,0 +1,5 @@
+dm "keydef F12 'cle log; cle output; submit'";
+
+RUn this on Sas editor (locally)
+
+This will set the shortuct between quote '' with the key 'F12'

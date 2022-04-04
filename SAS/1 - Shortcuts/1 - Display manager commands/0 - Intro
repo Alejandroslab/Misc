@@ -1,0 +1,195 @@
+DO NOT ASSIGN THE FIRST FUCNTION KEYS AS WELL AS THE FIRST COMBINATION
+WITH THE FIRST FUNCTION KEYS (e.g. F2, F4, Ctrl+F1, shift+f2....)
+
+You cannot assign whatever you like as a lot of shortcuts are assigned to windows
+
+SAS will notify this in the bottom left corner "Some keys are OS reserved"
+
+or something similar
+
+
+
+
+
+SAS provides defaultvalues for some of the keys:
+
+
+
+
+Key
+
+
+Default Value
+
+
+Definition
+
+
+F1
+  help
+Displays context-sensitivehelp for the window that currently has focus.
+
+
+F2
+ reshow
+Rebuilds the windowthat is currently displayed on the screen.
+
+
+F3
+ end
+Closes some windows,or submits the contents of the Editor windowfor processing.
+
+
+F4
+ recall
+Recalls submitted SASstatements.
+
+
+F5
+ wpgm
+Opens the EnhancedEditor window (Windows operating environment only).
+
+
+F6
+ log
+Opens the Log window.
+
+
+F7
+ output
+Opens the Output window.
+
+
+F8
+ zoomoff; submit
+Causes the display ofthe active window to fill the entire screen. In the Editor window,submits the SAS code for processing.
+
+
+F9
+ keys
+Opens the KEYS window.
+
+
+F11
+
+command focus
+
+Moves the cursor tothe command line.
+
+
+SHF F1
+ subtop
+Submits the top n linesfor execution.
+
+
+SHF F7
+ left
+Moves the window viewerto the left by the amount set by the HSCROLL command.
+
+
+SHF F8
+ right
+Moves the window viewerto the right by the amount set by the HSCROLL command.
+
+
+SHF F10
+ wpopup
+Invokes the pop-up dialogbox.
+
+
+CTL B
+ libname
+Opens the LIBNAME window.
+
+
+CTL D
+ dir
+Opens the DIR window.
+
+
+CTL E
+ clear
+Clears the contentsof the Program Editor window, the Log window,the Output window, or the recall buffer.
+
+
+CTL H
+ help
+Displays context-sensitivehelp for the window that currently has focus.
+
+
+CTL I
+ options
+Opens the SASSystem Options window.
+
+
+CTL K
+ cut
+Removes marked textfrom the current window and stores it in the paste buffer.
+
+
+CTL L
+ log
+Opens the Log window.
+
+
+CTL M
+ mark
+Identifies text so thatyou can use it later with another command.
+
+
+CTLQ
+ filename
+Opens the FILENAME window.
+
+
+CTL R
+ rfind
+Continues a search fora string of characters.
+
+
+CTL T
+ titles
+Opens the TITLES window.
+
+
+CTL U
+ unmark
+Returns marked textto normal status.
+
+
+CTL W
+ access
+Opens the Explorer window.
+
+
+RMB
+ wpopup
+Invokes the pop-up dialogbox.
+
+
+
+CAUTION:
+
+Some operatingsystems have reserved values for certain keys.
+
+Contact your systemprogrammer for information about reserved keys.
+
+For a complete listof keys that you can define, see the SAS Keys Window.
+
+
+Add Function Key Definitions
+
+
+To add function keydefinitions:
+
+
+1.
+Place your cursor nextto the key that you want to assign to a command. Ensure that yourcursor is under the Definition column.
+
+
+2.
+Enter the name of thecommand that you want to assign.
+
+
+3.
+Save the KEYS window.

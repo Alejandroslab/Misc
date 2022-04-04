@@ -8,3 +8,11 @@ dm "log; clear;"
 therefore in the keys section just type:
 
 log; clear
+
+Or:
+
+clear log
+
+it is also accepted:
+
+cle log
