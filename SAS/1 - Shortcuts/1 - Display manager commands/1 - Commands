@@ -20,6 +20,8 @@ clear         delete all the content of the selected object (or you can use 'cle
 submit       submit the contents of the editor for execution (editor must
  be the active window)
 
+gsubmit       Submits SAS code stored in the Windows clipboard.
+
 COMMON OBJECTS
 viewtable    opens/focus on the viewtable window
 editor       opens/focus on the editor window
