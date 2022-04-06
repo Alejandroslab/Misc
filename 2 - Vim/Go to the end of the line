@@ -1,0 +1,5 @@
+just press the dollar sign $
+
+
+^ or _ gets you to the first non-whitespace character in the line, and
+0 (zero) gets you to the beginning of the line incl. whitespace

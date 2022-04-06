@@ -1,12 +1,12 @@
 when scripting it is useful to save time using the piping
 
-In particulare you can do this:
+In particular you can do this:
 
 echo 'Hello!' | tee mynewscript.sh
 
 this will create a file called 'mynewscript.sh' and will fill it with the text after echo command
 
-of course you can just plug in a command 
+of course you can just plug in a command
 
 
 echo 'ls' | tee mynewscript.sh
@@ -22,5 +22,3 @@ to just append you need to put -a option after 'tee'
 
 
 echo 'ls' | tee -a mynewscript.sh
-
-

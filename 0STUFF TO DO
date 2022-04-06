@@ -7,9 +7,9 @@ for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
 _______________________
 DEBIAN DESKTOP (current)
 
-xrdp not working
+xrdp not working --done
 
-kdewallet at login disable
+kdewallet at login disable --done
 
 libinput-gestures-setup restart
 after suspending and restart
@@ -21,7 +21,7 @@ perl warning setting local failed fix
 latex files
 
 
-Sql client to Server Testing
+Sql client to Servertesting
 
 R portfolio project (Connecting to r studio server (servertesting))
 
