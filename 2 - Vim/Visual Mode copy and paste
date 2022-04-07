@@ -1,3 +1,7 @@
 enter visual mode with 'v'
 
-then press:
+then select the part you want to copy
+
+press 'y' (just once)
+
+then move where you want to paste and press 'p'
