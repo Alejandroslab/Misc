@@ -1,0 +1,5 @@
+Tree is usefull to see directories and subdirectories all at once 
+
+tree -D
+
+will use tree comand and display all the dates
