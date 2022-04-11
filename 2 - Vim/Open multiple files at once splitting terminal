@@ -1,0 +1,10 @@
+you can use:
+
+vim -p myfile1 myfile2
+
+to get tabs
+and then you move with :n and :N
+
+or you can open both files with:
+
+vim -o myfile1 myfile2

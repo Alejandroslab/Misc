@@ -1,0 +1,6 @@
+ $a -eq 2
+
+ '-eq' can be used only for integers if we want to use character we must use the operator '=='
+
+
+  $a == 'yes'  
