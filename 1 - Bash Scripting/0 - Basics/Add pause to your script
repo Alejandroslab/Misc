@@ -1,0 +1,7 @@
+sleep 2
+
+will pause the script for 2 seconds
+
+sleep 2m 30s
+
+will pause for 2 minutes and 30 seconds

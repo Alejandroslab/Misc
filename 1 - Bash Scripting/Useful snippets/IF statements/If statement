@@ -4,7 +4,5 @@ if [ $answer == 'y' ];then
 elif [ $answer == 'n' ];then
         echo "Try again"
 else
-    exit 1
+        echo "Try again!"
 fi
-
-'exit 1' will end the if statement

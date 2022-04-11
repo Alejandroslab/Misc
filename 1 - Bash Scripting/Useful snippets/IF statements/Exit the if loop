@@ -1,0 +1,9 @@
+if [ $answer == 'y' ];then
+        echo "Ok! I'm glad that you are fine. Bye!"
+elif [ $answer == 'n' ];then
+        echo "Try again"
+else
+    break
+fi
+
+'break' will end the if statement
