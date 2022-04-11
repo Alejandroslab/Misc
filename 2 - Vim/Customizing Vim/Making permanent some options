@@ -1,0 +1,12 @@
+just go to
+
+vim ~/.vimrc
+
+
+and type:
+
+:set number
+
+The file probably will not exist if you have never set your Vim before
+
+This is not a problem as Vim will look for that file before opening !
