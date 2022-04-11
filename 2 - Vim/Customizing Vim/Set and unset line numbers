@@ -1,0 +1,6 @@
+:set number
+
+
+to unset:
+
+:set nu!
