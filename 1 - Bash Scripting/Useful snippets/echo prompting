@@ -1,6 +1,7 @@
 echo -n "What is your name? "
 
 will display in a single line and prompt the user
+-n : do not append a newline
 
 And
 echo "What is your name? "
