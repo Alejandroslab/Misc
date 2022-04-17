@@ -1,0 +1,8 @@
+You cannot just import a library
+
+if there is no library then you must create one and then choose the path where is your library
+There is no library format therefore you must click on the table that has been saved.
+
+If your library consisted of more tables SAS will import them automatically whenever you import just one of them
+
+You cannot save a library just the datasets therefore whenever you save you will only get datasets and no real libraries 
