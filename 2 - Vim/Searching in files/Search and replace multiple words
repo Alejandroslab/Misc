@@ -1,3 +1,3 @@
 :%s/foo/bar/g
 
-in this case the word 'foo' will be replaced with 'bar' in all the file
+in this case the word 'foo' will be replaced with 'bar' in all the fileg
