@@ -1,3 +1,8 @@
 :%s/foo/bar/g
 
 in this case the word 'foo' will be replaced with 'bar' in all the fileg
+
+
+:6,10s/foo/bar/g
+
+in this way from line 6 to line 10
