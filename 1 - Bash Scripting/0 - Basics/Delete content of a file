@@ -1,0 +1,13 @@
+Let's suppose that we have the file
+
+mytest.txt
+
+i want to clear the contetn
+
+just run:
+
+:> mytest.csv
+
+or
+
+: > mytest.csv
