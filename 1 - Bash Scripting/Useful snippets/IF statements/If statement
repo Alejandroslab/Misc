@@ -1,3 +1,5 @@
+#remember that spaces and brackets need this kind of spacing:
+
 
 if [ $answer == 'y' ];then
         echo "Ok! I'm glad that you are fine. Bye!"
@@ -5,4 +7,14 @@ elif [ $answer == 'n' ];then
         echo "Try again"
 else
         echo "Try again!"
+fi
+
+#you can also type then on the next line
+
+if [ $folder == 1 ]
+
+        then 
+
+        ---
+
 fi
