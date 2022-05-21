@@ -1,0 +1,11 @@
+clear
+echo
+echo "$(tput setaf 3)RICERCA TERMINI"
+myprogress='##############################'   
+for i in {1..30}; do
+    echo -ne "\r${myprogress:0:$i}" 
+    sleep .03                 
+done
+echo
+echo
+echo "$(tput setaf 2)Benvenuto!"
