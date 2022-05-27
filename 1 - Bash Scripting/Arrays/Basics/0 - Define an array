@@ -1,0 +1,7 @@
+array_name=(value1 value2 value3 … )
+
+IT IS POSSIBLE TO STORE ANY KIND OF DATA INTO THE SAME ARRAY!
+
+to access the array:
+
+echo ${files[1]}

@@ -1,0 +1,10 @@
+when you define an array you must be very careful with the '='
+you must follow the empty space convention
+
+this will work:
+array1=( $( ls . ) )
+
+this will not work:
+array1 = ( $( ls . ) )
+
+you will get unexpected token error '('

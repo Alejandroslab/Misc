@@ -1,0 +1,5 @@
+ADD AN ELEMENT:
+
+distros=("Ubuntu" "Red Hat" "Fedora")
+
+distros+=("Kali")

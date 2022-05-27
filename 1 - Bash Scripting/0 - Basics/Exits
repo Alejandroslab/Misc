@@ -1,3 +1,11 @@
+You do not need to add a number to 'exit'
+They are generally added just for reference when scripting
+
+Anyways bash recognises exit codes
+
+you can type: echo $?
+after running a command and you will get '0' when the command returns the right output and no error have been arised. 
+
 exit 0 is referred to Success
 exit 1 is general errors
 exit 2 is misuse of shell builtins

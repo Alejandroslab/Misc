@@ -1,0 +1,6 @@
+
+DELETE THE NTH VALUE
+
+unset num[2]
+
+this will delete the 2nd value of the array
