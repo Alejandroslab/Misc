@@ -1,0 +1,9 @@
+if [[ x == 100]]
+then
+    echo "Il numero 100"
+elif [[ x <> 100]]
+then
+    echo "Il numero non è 100"
+else
+    echo "Il numero non è 100"
+fi
