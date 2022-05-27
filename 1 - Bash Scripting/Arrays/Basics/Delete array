@@ -1,0 +1,5 @@
+unset array
+
+to delete just a single element:
+
+unset array[10]
