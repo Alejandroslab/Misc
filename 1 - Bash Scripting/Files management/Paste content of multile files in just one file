@@ -1,0 +1,11 @@
+you can use 'paste':
+
+paste file1 file2 > myfinalfile
+
+with will print each file contet as columns with default delimiter tab
+
+you can indicate anyways your delimiter:
+
+paste -d ' ' file1 file2 > myfinalfile
+
+this will use space as delimiter 
