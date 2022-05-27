@@ -1,0 +1,8 @@
+touch file-{1..10}.txt
+
+this will create multiple files (in thi case 10 files) in the current folder like:
+
+file-1.txt
+file-2.txt
+..
+file-10.txt
