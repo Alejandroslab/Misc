@@ -1,0 +1,19 @@
+Bash understands many different kinds of variables or parameters. Thus far, we haven't bothered much with what kind of variables we assigned, so our variables could hold any value that we assigned to them. A simple command line example demonstrates this:
+
+Using a declare statement, we can limit the value assignment to variables.
+
+The syntax for declare is the following:
+
+declare OPTION(s) VARIABLE=value
+
+The following options are used to determine the type of data the variable can hold and to assign it attributes:
+
+Table 10-1. Options to the declare built-in
+Option	Meaning
+-a	Variable is an array.
+-f	Use function names only.
+-i	The variable is to be treated as an integer; arithmetic evaluation is performed when the variable is assigned a value (see Section 3.4.6).
+-p	Display the attributes and values of each variable. When -p is used, additional options are ignored.
+-r	Make variables read-only. These variables cannot then be assigned values by subsequent assignment statements, nor can they be unset.
+-t	Give each variable the trace attribute.
+-x	Mark each variable for export to subsequent commands via the environment.

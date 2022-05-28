@@ -1,0 +1,11 @@
+$ echo "hello, how are you?" | sed 's/h//'
+
+This will only remove the first occurrence of ‘h’ in the string.
+
+To remove all occurrences of ‘h’ from the string, use the following command:
+$ echo "hello, how are you?" | sed 's/h//g'
+
+
+
+To remove the first and last character from the string “hello, how are you?” the command would be:
+echo "hello, how are you?" | sed 's/^.//;s/.$//'
