@@ -1,0 +1,16 @@
+you can create a csv file as the ouptof of a command like:
+
+ls -lah > myfiles.csv
+
+you can also create a csv with a specified delimiter with awk:
+
+ls -lah | awk '{print $5,$9}' OFS=";" > myfileslist.csv
+
+where OFS indicate the delimiter
+
+This is useful when you want to open the file in excel
+If you open directly with excel, Excel will separate the columns automatically
+
+REMEMBER! You must indicate the right delimiter ! For US excel the delimiter is always the comma therefore
+OFS will become OFS="," 
+In Italian usually the Excel delimiter is ';' therefore OFS will be OFS=";"
