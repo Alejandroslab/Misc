@@ -1,0 +1,3 @@
+just use this:
+
+ls >| myfile.txt

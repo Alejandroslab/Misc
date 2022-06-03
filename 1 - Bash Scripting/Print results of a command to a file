@@ -1,0 +1,19 @@
+We can use the symbol: '>' or '>>' or '>|'
+
+Remember that for the first 2 the output file should already exist.
+
+ls > myfile.txt
+
+the file called 'myfile.txt' shoudl exist as '>' will truncate and add the data
+
+otherwise:
+
+ls >> myfile.txt
+
+will just append the output to the file
+
+If we want to print the command output to a file that still does not exist just run:
+
+ls >| myfile.txt
+
+(no space between >and |)
