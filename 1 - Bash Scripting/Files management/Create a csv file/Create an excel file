@@ -1,0 +1,7 @@
+You cannot create an xlsx file
+You can create an xls file (old format)
+anyways whenervr you open a message of format and extension mismatch will appear (even if you can actually open the file)
+
+therefore it is suggested just to use the csv with the right delimiter and leave Excel doing the proper split of the data opening the csv.
+
+You can also add tables directly on you csv and then save it in xlsx file in Windwos 

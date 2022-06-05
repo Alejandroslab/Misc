@@ -1,0 +1,33 @@
+you can create a csv file as the ouptof of a command like:
+
+ls -lah > myfiles.csv
+
+you can also create a csv with a specified delimiter with awk:
+
+ls -lah | awk '{print $5,$9}' OFS=";" > myfileslist.csv
+
+where OFS indicate the delimiter
+
+This will print the columsn 5 and 9 (not the range)
+
+
+
+_______________
+If we want to print all the columns then just run:
+
+ls -lah | awk '{print $0}' OFS=";" > myfileslist.csv
+
+_______________
+to print a range:
+
+ls -lah | awk -v f=4 -v t=8 '{for(i=f;i<=t;i++) printf("%s%s",$i,(i==t)?"\n":OFS=";")}'
+
+_______________________
+This is useful when you want to open the file in excel
+If you open directly with excel, Excel will separate the columns automatically
+
+REMEMBER! You must indicate the right delimiter ! For US excel the delimiter is always the comma therefore
+OFS will become OFS=","
+In Italian usually the Excel delimiter is ';' therefore OFS will be OFS=";"
+
+Anyways you can also leave OFS blank like 'OFS' without sepcifing anythign 
