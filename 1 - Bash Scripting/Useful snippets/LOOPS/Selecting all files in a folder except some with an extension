@@ -1,0 +1,4 @@
+this will retrieve all the files and folders and exclude any file that has as an extension
+the '.sh'. Will exclude files that end with .sh
+
+for i in *; do if  [[ $i != *.sh  ]] ; then echo "$i"; fi; done
