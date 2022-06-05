@@ -1,0 +1,8 @@
+we can use this:
+
+if git commit -m "Update" | grep -q "nothing to commit"
+then
+  echo "There is nothing to push. Your branch is already up to date."
+else
+  echo "there is something to commit"
+fi
