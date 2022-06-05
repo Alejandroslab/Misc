@@ -1,0 +1,6 @@
+You can just run the command with ';'
+
+for i in "${var2[@]}"; do echo $i; done
+
+
+without the semicolumn will not wokr

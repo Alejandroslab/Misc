@@ -1,3 +1,10 @@
+You define an array with brackets always
+
+myarray=(...)
+
+if you do not put = and the brackets that will not be recognized as an array
+
+
 when you define an array you must be very careful with the '='
 you must follow the empty space convention
 
@@ -8,3 +15,5 @@ this will not work:
 array1 = ( $( ls . ) )
 
 you will get unexpected token error '('
+
+ARRAYS STARTS FROM 1 and not 0

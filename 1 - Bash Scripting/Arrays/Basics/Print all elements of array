@@ -1,1 +1,7 @@
-echo ${files[*]}
+this will print without going to next line
+
+echo ${array[*]}
+
+you can use this:
+
+printf '%s\n' "${array[@]}"

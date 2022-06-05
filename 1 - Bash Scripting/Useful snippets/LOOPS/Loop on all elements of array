@@ -1,0 +1,6 @@
+for i in "${myarray[@]}"
+do
+echo $i
+done
+
+#this will print all the elements of the array
