@@ -1,0 +1,1 @@
+if [[ CONDITION_STATEMENT ]]; then SOME_CODE; else OTHER_CODE; fi
