@@ -5,3 +5,13 @@ IT IS POSSIBLE TO STORE ANY KIND OF DATA INTO THE SAME ARRAY!
 to access the array:
 
 echo ${files[1]}
+
+
+
+array=()	create an empty array with declaring is valid
+array=(1 6 3)	Initialize array with numbers
+array=(one two three)	Initialize array with string
+array=(one two 1)	Initialize array with mixed data
+
+
+An array can be defined as a collection of similar type of elements. Unlike most of the programming languages, arrays in bash scripting need not be the collection of similar elements. Since Bash does not discriminate the string from a number, an array may contain both strings and numbers.

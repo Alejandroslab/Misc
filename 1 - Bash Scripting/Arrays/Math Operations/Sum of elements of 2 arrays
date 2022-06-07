@@ -1,0 +1,21 @@
+First define the first 2 arrays to sum:
+
+a=(1 0 1)
+b=(0 1 1)
+
+(just run these two lines)
+
+result I want to get:
+
+c=(1 1 2)
+
+for idx in "${!a[@]}"; do
+    c[idx]=$(( a[idx] + b[idx] ))
+done
+
+
+in one line:
+
+for idx in "${!a[@]}"; do c[idx]=$(( a[idx] + b[idx] )); done
+
+printf '%s\n' "${c[@]}"

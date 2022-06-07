@@ -1,0 +1,24 @@
+myvar="string1 string2 string3"
+
+
+
+# Redefine myvar to myarray using parenthesis
+myarray=($myvar)
+
+Alternatively
+# Storing as array into myarray
+read -a myarray <<< $myvar
+
+if we have a delimiter:
+
+myvar="string1,string2,string3"
+
+# Here comma is our delimiter value
+IFS="," read -a myarray <<< $myvar
+
+or:
+
+myvar="string1,string2,string3"
+
+# Here comma is our delimiter value
+IFS="," read -a myarray <<< $myvar

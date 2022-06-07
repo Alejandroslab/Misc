@@ -1,0 +1,12 @@
+array[index]=value
+
+if we have:
+numbers=("element1" "element2" "element3")
+
+and we run:
+numbers[0]="element0"
+echo ${numbers[*]}
+
+then we get the new array with:
+
+element0 element2 element3

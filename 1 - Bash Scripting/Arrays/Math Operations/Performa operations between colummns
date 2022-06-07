@@ -1,0 +1,18 @@
+if we Have
+ERR843978.19884 13 51 51
+ERR843978.2880 10 49 51
+ERR843978.10002 7 48 55
+ERR843978.1158 8 45 54
+ERR843978.4671 14 62 60
+ERR843978.83 15 56 70
+ERR843978.9406 8 56 39
+ERR843978.8383 12 59 43
+ERR843978.8916 6 51 42
+
+and we want to do this:
+
+column2/(column3*column4)
+
+just use awk:
+
+awk '{ print $2/($3 * $4) }' file > newfile

@@ -1,3 +1,7 @@
+printf '%s \n' ${array[*]}
+
+or
+
 printf '%s|' "${array[@]}"; echo
 
 Alternately, if you don't want the trailing |, you can temporarily modify IFS to use your chosen separator as its first character, and use "${array[*]}":

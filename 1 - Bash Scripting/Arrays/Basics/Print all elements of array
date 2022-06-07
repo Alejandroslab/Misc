@@ -1,1 +1,12 @@
 echo ${files[*]}
+or
+
+printf '%s \n' ${array[*]}
+
+
+
+${array[0]}	Get first element
+${array[1]}	Get Second element
+${array[-1]}	Get Last element
+${array[@]}	Get All elements
+${array[*]}	Get All elements

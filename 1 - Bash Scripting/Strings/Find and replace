@@ -1,0 +1,3 @@
+sed -i -e '/FOO/s/love/sick/' input.txt
+
+this will find the word love and replace with sick in the 'input.txt'

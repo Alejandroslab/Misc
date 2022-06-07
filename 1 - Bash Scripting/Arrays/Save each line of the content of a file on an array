@@ -1,0 +1,1 @@
+readarray -t array < file.txt

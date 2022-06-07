@@ -1,4 +1,4 @@
-ADD AN ELEMENT:
+ADD AN ELEMENT (appending):
 
 distros=("Ubuntu" "Red Hat" "Fedora")
 

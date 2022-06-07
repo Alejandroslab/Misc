@@ -1,0 +1,14 @@
+Use Stream EDitor (sed) as follows:
+sed -i 's/old-text/new-text/g' input.txt
+
+I am going to use s/ for substitute the found expression foo with bar as follows:
+sed 's/foo/bar/g' hello.txt
+
+the '/g' is needed to change it along all the file
+
+
+ISSUES:
+
+replace http with https will need a + as the command otherwise will be misleaded because of the '/'
+
+sed 's+http://+https://www.cyberciti.biz+g' input.txt

@@ -1,0 +1,26 @@
+if we have a csv:
+
+usernames   x1    x2   x3  x4
+username1,  5     5    4   2
+username2,  6     3    2   0
+username3,  8     4    9   3
+
+we want an array
+
+run this and place it in an arrays
+awk 'BEGIN { FS=",?[ \t]*"; } { print $1,"|",$2,"|",$3,"|",$4,"|",$5; }'
+
+
+other way:
+
+THis csv is comma separated:
+
+John,Vl1805,VRFname,10.9.48.64/28,10.9.48.78
+John,Vl1806,VRFname,10.9.48.80/28,10.9.48.94
+John,Vl1807,VRFname,10.9.48.96/28,10.9.48.110
+John,Vl1808,VRFname,10.9.48.112/28,10.9.48.126
+John,Vl1809,VRFname,167.107.152.32/28,167.107.152.46
+
+run:
+eCollection=( $(cut -d ',' -f2 MyAssignment.csv ) )
+printf "%s\n" "${eCollection[0]}

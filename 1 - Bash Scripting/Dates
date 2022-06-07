@@ -1,0 +1,20 @@
+We can save the current time by using -v and specifying the variable name. To save the current time in a variable cdate and print it, we can do the following:
+
+$ printf -v cdate '%(%F)T' -1
+$ echo $cdate
+
+date +"%m-%d-%y"
+
+To convert the year into a four-digit, change y to Y.
+
+$ date +"%m-%d-%Y"
+
+To add N days in the date, we use the following command:
+
+date -d="YYYY-MM-DD+N days"
+Let’s look at an example.
+
+$ date -d "2021-12-21+20 days"
+Output:
+
+Mon 10 Jan 2022 12:00:00 AM 
