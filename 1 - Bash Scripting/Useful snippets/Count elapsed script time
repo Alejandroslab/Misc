@@ -1,0 +1,12 @@
+#This will give you the elapsed time with milliseconds
+#for your script
+
+startscripttime=$(date +%s)
+
+
+echo "$(tput setaf 5)Orario di inizio script: " $(date +%H:%M:%S:%3N) $(tput sgr0)
+
+#HERE MY CODE
+echo "Hello"
+
+echo "$(tput setaf 5)Orario di fine script: " $(date +%H:%M:%S:%3N) $(tput sgr0)
