@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 echo ${files[*]}
 or
 
@@ -10,3 +11,12 @@ ${array[1]}	Get Second element
 ${array[-1]}	Get Last element
 ${array[@]}	Get All elements
 ${array[*]}	Get All elements
+=======
+this will print without going to next line
+
+echo ${array[*]}
+
+you can use this:
+
+printf '%s\n' "${array[@]}"
+>>>>>>> 073ec35b265714c52aff2baa7bb68920d7474c00

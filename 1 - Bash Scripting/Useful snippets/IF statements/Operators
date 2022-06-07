@@ -1,0 +1,10 @@
+if  [ "$f" != "Python" ]
+then echo "$f"
+fi
+
+!= stands for not equal (strings)
+
+
+for integers use:
+
+-ne

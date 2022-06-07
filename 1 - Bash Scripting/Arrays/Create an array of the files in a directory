@@ -1,1 +1,10 @@
 array1=( $( ls . ) )
+
+
+or
+
+arr=(~/myDir/*)
+
+if you are in the current dierctory and just want the files run:
+
+myfiles=(*)

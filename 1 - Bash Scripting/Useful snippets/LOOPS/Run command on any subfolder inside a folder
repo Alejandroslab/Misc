@@ -1,0 +1,7 @@
+If you want to recursively run a command after opening any single subfolder inside a folder then you can use:
+
+find . -maxdepth 1 -type d \( ! -name . \) -exec bash -c "cd '{}' && pwd && echo "hello"" \;
+
+the command that will be run is the one after '&&'. In this case is 'pwd' but you can run anything you want
+
+The 'cd {}' part will allow to enter in any subdirectory

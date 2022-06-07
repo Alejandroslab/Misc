@@ -1,0 +1,2 @@
+#REMOVE THE LAST ELEMENT:
+unset 'arr2[${#arr2[@]}-0]'
