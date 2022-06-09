@@ -1,0 +1,5 @@
+Just download the image: openwrt-21.02.2-x86-64-generic-ext4-combined-efi
+
+or the newer one (you can find it under x86-64 - generic folder)
+
+then run it on Boxes or QEMU

@@ -1,0 +1,48 @@
+A Vim plugin is a set of Vimscript files that are laid out in a certain directory structure. Before plugin managers became popular, Vim plugins were usually distributed as tarballs. Users would manually download the file and extract it in a single directory called ~/.vim, and Vim would load the files under the directory during startup.
+
+This simplistic "download & unzip" method might work for a tiny number of plugins but the effectiveness of it degenerates quickly as the number of plugins grows. All the files from different plugins share the same directory structure and you can't easily tell which file is from which plugin of which version. The directory becomes a mess, and it's really hard to update or remove a certain plugin.
+
+vim-plug, a modern Vim plugin manager, downloads plugins into separate directories for you and makes sure that they are loaded correctly. It allows you to easily update the plugins, review (and optionally revert) the changes, and remove the plugins that are no longer used.
+
+vim-plug is distributed as a single Vimscript file. 
+
+All you have to do is to download the file in a directory so that Vim can load it.
+
+
+# Vim (~/.vim/autoload)
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# Neovim (~/.local/share/nvim/site/autoload)
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+   
+   
+now open your ~/.vimrc. If you do not have it just create it and type this:
+    
+    
+ " Plugins will be downloaded under the specified directory.
+call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
+
+" Declare the list of plugins.
+Plug 'tpope/vim-sensible'
+Plug 'junegunn/seoul256.vim'
+
+" List ends here. Plugins become visible to Vim after this call.
+call plug#end()
+
+
+After adding the above to the top of your Vim configuration file, reload it (:source ~/.vimrc) 
+or restart Vim. 
+
+Now open Vim and run :PlugInstall to install the plugins.
+
+
+Run :PlugUpdate to update the plugins. After the update is finished, you can review the changes by pressing D in the window. Or you can do it later by running :PlugDiff.
+
+
+
+    Delete or comment out Plug commands for the plugins you want to remove.
+    Reload vimrc (:source ~/.vimrc) or restart Vim
+    Run :PlugClean. It will detect and remove undeclared plugins.
+

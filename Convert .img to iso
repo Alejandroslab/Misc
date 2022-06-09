@@ -1,0 +1,2 @@
+If you have a compressed image .img.gz then just uncompress it 
+then you can run it directly in Linux (with Boxes or QEMU) selecting the .img file
