@@ -1,0 +1,3 @@
+This line in bios means that the machine is trying to boot from network (LAN)
+
+Usually this is an config error. You just need to move the boot priority and set the Hard Disk as first priority leaving the network one behind 
