@@ -1,0 +1,6 @@
+proc sql;
+    select *
+    from dictionary.columns
+    where libname = "WORK"
+    and memname = "MY_DATA";
+quit;
