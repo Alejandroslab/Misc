@@ -1,1 +1,7 @@
 You just need to move the Virtual Hard Disk file that in Hyper V has the format .vhd or .vhdx
+
+Then create a new machine and connect the .vhd or .vhdx as virtual hard disk of that Machine
+
+done!
+
+Remmeber to set the hard disk as first boot priority or Hyper V will try to boot from network 
