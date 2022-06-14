@@ -1,0 +1,7 @@
+you just need to save your config file (see instructions. it is just a command )
+
+and then export your vm
+
+in the VM section (where there is all the list of all vms) click right on a VM and select 'Export'
+
+this is the way to do backups 

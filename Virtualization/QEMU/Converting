@@ -1,0 +1,5 @@
+convert from vhdx (hyper-v) to vmdk
+
+the -p  will show you progress in %
+
+qemu-img convert /media/user1/data/WinServer2016.vhdx -O vmdk /media/user1/data/WinServer2016qemu.vmdk -p

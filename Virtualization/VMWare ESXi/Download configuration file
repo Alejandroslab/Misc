@@ -1,0 +1,9 @@
+just enable ssh access and access with your credentials
+
+then running
+
+vim-cmd hostsvc/firmware/backup_config
+
+The command will output a URL like (http://*/downloads/123456/configBundle-xx.xx.xx.xx.tgz) in which a web browser may be used to download the file.
+
+where the * denotes the hostname or IP/FQDN.
