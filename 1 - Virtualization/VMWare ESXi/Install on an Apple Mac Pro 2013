@@ -1,0 +1,17 @@
+You can also install it on a Mac Pro (remmeber that just some hardware are compatible. Check out in the vmware website)
+
+I have used a Mac Pro from 2013 ("the trash can")
+
+I have used the same usb stick used for another host installation. Have flashed it via Etcher probably.
+
+The partition map was MBR (do not format with GUID as stated by some guys on the web as this solution will not work. You will get Error 15 not found or 'System firware shutting down' or something similar)
+
+plug your usb and boot up your Mac holding the option key
+
+YOu will see the 'EFI boot' option that stands for your usb stick
+
+now run it and install it
+
+done!
+
+remember to plug in the ethernet cable to get the IP address. You can also set up vlan ids!
