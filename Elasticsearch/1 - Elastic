@@ -24,12 +24,17 @@ THIS COMMAND WILL NOT RUN IN BACKGROUDN because you need to copy the enrollment 
 
 You might need to scroll back a bit in the terminal to view the password and enrollment token.
 
+REMEMBER after copying your token you can also close the terminal as elastic will continue running in background!
+
+
+
+
 Copy the generated password and enrollment token and save them in a secure location. These values are shown only when you start Elasticsearch for the first time.
 the default user will be 'elastic'
 
 Now you will not be able to check if it is working properly. If you want to do that you need to download a certificate as explained in the website and then check it with a curl command and the certificate from your remote machine
 
-anyways you can check everything is working after installing kibana 
+anyways you can check everything is working after installing kibana
 
 If you need to reset the password for the elastic user or other built-in users, run the elasticsearch-reset-password tool. This tool is available in the Elasticsearch /bin directory of the Docker container. For example:
 

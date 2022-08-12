@@ -22,3 +22,6 @@ done!
 
 
 Finally insert your elastic user and password. The password can be retrieved in the elasticsearch terminal
+
+
+REMEMBER you can now also close the terminal as kiban will continue running in background (as elasticsearch)!
