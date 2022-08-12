@@ -2,4 +2,13 @@
 
 use
 
-docker image prune -a
+docker ps -a
+
+check the name or ID of the container then run:
+
+docker stop containername
+
+docker rm containername
+
+
+done!

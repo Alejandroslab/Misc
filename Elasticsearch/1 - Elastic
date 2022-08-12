@@ -1,0 +1,23 @@
+Downoload from registry
+
+docker pull docker.elastic.co/elasticsearch/elasticsearch:8.3.3
+
+create a docker network for elastic and for kibana (the docker netowrk must be the same)
+
+
+docker network create elastic
+
+
+then run it
+
+
+docker run --name es01 --net elastic -p 9200:9200 -p 9300:9300 -it docker.elastic.co/elasticsearch/elasticsearch:8.3.3
+
+You might need to scroll back a bit in the terminal to view the password and enrollment token.
+
+Copy the generated password and enrollment token and save them in a secure location. These values are shown only when you start Elasticsearch for the first time.
+
+
+If you need to reset the password for the elastic user or other built-in users, run the elasticsearch-reset-password tool. This tool is available in the Elasticsearch /bin directory of the Docker container. For example:
+
+docker exec -it es01 /usr/share/elasticsearch/bin/elasticsearch-reset-password
