@@ -1,9 +1,0 @@
-elasticsearch stack:
-
-docker pull elasticsearch:8.3.3
-docker pull kibana:8.3.3
-docker pull logstash:8.3.3
-
-
-docker pull jenkins/jenkins:latest
-I will use docker on opensuse

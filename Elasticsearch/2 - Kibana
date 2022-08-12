@@ -11,3 +11,5 @@ THIS COMMAND WILL NOT RUN IN BACKGROUND because you need to copy the verificatio
 
 Kibana can be accessed by browser via http://localhost:5601 or http://host-ip:5601
 You can even connect from remote machines (remember to temporarily disable your firewall)
+
+done!
