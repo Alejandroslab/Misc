@@ -1,0 +1,10 @@
+create a Network
+
+docker network create somenetwork
+
+docker run -d --name kibana --net somenetwork -p 5601:5601 kibana:8.3.3
+
+
+Kibana can be accessed by browser via http://localhost:5601 or http://host-ip:5601
+
+even from remote machines (remember to temporarily disable your firewall)

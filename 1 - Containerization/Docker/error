@@ -1,0 +1,5 @@
+"You have to remove (or rename) that container to be able to reuse that name."
+
+use
+
+docker image prune -a
