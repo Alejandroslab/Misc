@@ -1,0 +1,10 @@
+When you migrate a machine you need to be careful about the adapter settings as this may not be workign properly
+
+shutdown your vm go to settings > Network Adapter > Adapter Type
+and choose one adapter. I chose 'E1000' and it worked
+
+Then if you have VLAN setted up you have to check that your virtual swithc is connected to the VLAN ID you need otherwise there will be no internet
+
+finally you may want also to have more displayed settings like the hostname and IP in your dashboard
+
+therefore remember to connect a virtual CD/DVD drive as it is needed for VM tools 
