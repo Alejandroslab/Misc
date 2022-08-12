@@ -6,4 +6,5 @@ in order to run 'docker' commands without password to be asked each time
 then remember to disable your firewalld
 
 systemctl stop firewalld.service
+
 as you will not have possibilty to connect from remote machines

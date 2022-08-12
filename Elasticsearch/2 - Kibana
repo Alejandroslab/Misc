@@ -1,10 +1,13 @@
-create a Network
+proceed now to install kibana
 
-docker network create somenetwork
+docker pull kibana:8.3.3
 
-docker run -d --name kibana --net somenetwork -p 5601:5601 kibana:8.3.3
+now run kibana with the same network of elastic and without the '-d' option
+
+docker run --name kibana --net somenetwork -p 5601:5601 kibana:8.3.3
+
+THIS COMMAND WILL NOT RUN IN BACKGROUND because you need to copy the verification code. In next runs you can just run it in background with the '-d' option
 
 
 Kibana can be accessed by browser via http://localhost:5601 or http://host-ip:5601
-
-even from remote machines (remember to temporarily disable your firewall)
+You can even connect from remote machines (remember to temporarily disable your firewall)
