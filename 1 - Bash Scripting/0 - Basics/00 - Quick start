@@ -1,0 +1,17 @@
+just create a file
+
+vim myscript.sh
+
+enter your code like:
+
+sudo apt autoremove -y ; sudo apt-get autoclean -y
+
+without anything else
+save and close it
+
+then run it:
+
+sh myscript.sh
+
+
+done!
