@@ -1,0 +1,25 @@
+Create a folder with all your scripts
+
+you can also set an alias to make it easier to remember and type
+
+alias mycoolscript="python /$HOME/scripts/script.py"
+
+Alias will work also with autocomplete
+The alias wont persist across shell sessions. If you want to add these permanently you can add the alias command to your .bashrc
+
+
+
+open $HOME/.bashrc with your favorite text editor and add the line to the bottom
+
+when you are done type
+
+    Make the scripts executable: chmod +x $HOME/scripts/*
+    This needs to be done only once.
+
+    Add the directory containing the scripts to the PATH variable:
+    export PATH=$HOME/scripts/:$PATH
+    (Verify the result with echo $PATH.)
+
+    The export command needs to be run in every shell session.
+
+    For convenience, you want to add that command to the $HOME/.profile file so it is run automatically for you at log-in time.

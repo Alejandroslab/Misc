@@ -1,0 +1,53 @@
+create a txt
+
+touch links.txt
+
+wget -i links.txt
+
+(if there is a space in the name:
+
+wget -i 'these are my links.txt'
+)
+
+wget will download all the images.
+
+WHAT IF I WANT TO RENAME THE FILES:
+The problem of wget is that it does not provide a coherent naming of the downloaded files
+
+if I use:
+
+wget -o links.txt filename.jpeg
+
+it will not work as every file downloaded will be renamed as filename.jpeg and they will be overwritten.
+The final result is just 1 file.
+
+a workaround is a bash script:
+
+touch downloadimages.sh
+
+nano downloadimages.sh
+
+#!/bin/bash
+count=1
+while read p; do
+  wget -O "img${count}.jpg" $p
+  count=$((count+1))
+done <links.txt
+
+save and close the file
+
+now:
+sudo chmod +x downloadimages.sh
+
+_____________________________________________________________
+
+
+run the script:
+./downloadimages.sh
+
+now images will be downloaded with a progressive number in the name.
+
+you have to insert ./ at the beginning otherwise it will not work
+
+remember that if you put an empty line, the script will create a picture anyways.
+That picture will be empty.
