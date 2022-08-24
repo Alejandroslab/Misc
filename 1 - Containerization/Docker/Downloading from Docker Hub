@@ -1,0 +1,13 @@
+You can download official images from docker hub
+
+just remember to use the tags! this means when you run the code to install your imaeg you need to go to the tab 'Tags' and choose the right line of code (that corresponds usually to the version that you want to install)
+
+e.g. if you want
+you will see:
+
+docker pull node
+
+
+but you need to choose something like (you can find all the alternatives under 'tags' tab):
+
+docker pull node:latest or docker pull node:slim

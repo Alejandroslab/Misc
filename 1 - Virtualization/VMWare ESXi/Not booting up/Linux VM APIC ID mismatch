@@ -1,0 +1,7 @@
+This error appears with RHEL based distros
+
+to overcome this when you boot up just select the '0x..rescue' version of the OS
+and not the regular.
+Then it boots up
+
+if you update your OS then it should automatically fix (at least this is what happens on Fedora)

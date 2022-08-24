@@ -1,0 +1,5 @@
+You need to run any command as root or just place 'sudo' before any command that starts with 'docker'
+
+In RHEL you do not have docker:
+
+Docker will not support RedHat 8, it will be installed as Podman.

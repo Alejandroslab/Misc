@@ -1,0 +1,5 @@
+Just download the VM files, VMDK and VMX configuration file from your datastore
+
+or you can export as OVF that will allow you to load your vm's in other hypervisors
+to do that right click on you VM and then select 'Export'
+this will create an OVF file 

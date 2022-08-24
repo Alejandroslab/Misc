@@ -1,0 +1,14 @@
+"You have to remove (or rename) that container to be able to reuse that name."
+
+use
+
+docker ps -a
+
+check the name or ID of the container then run:
+
+docker stop containername
+
+docker rm containername
+
+
+done!

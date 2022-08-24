@@ -1,0 +1,4 @@
+
+If you have already installed kubeadm, run apt-get update && apt-get upgrade or yum update to get the latest version of kubeadm.
+
+When you upgrade, the kubelet restarts every few seconds as it waits in a crashloop for kubeadm to tell it what to do. This crashloop is expected and normal. After you initialize your control-plane, the kubelet runs normally.

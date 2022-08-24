@@ -1,0 +1,3 @@
+Just create a new virtual machine. give it a name and select the .ovf and .vmdk file as well
+
+if it appears an errors then add the .iso file if you have it. sometimes virtual HD's are separated between .vmdk file and an .iso file

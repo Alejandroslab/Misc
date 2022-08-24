@@ -1,0 +1,9 @@
+docker pull apache/spark-py:latest
+
+The easiest way to start using PySpark is through the Python shell:
+
+docker run -it apache/spark-py /opt/spark/bin/pyspark
+
+And run the following command, which should also return 1,000,000,000:
+
+spark.range(1000 * 1000 * 1000).count()

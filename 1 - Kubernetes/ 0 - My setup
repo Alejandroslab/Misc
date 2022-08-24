@@ -1,0 +1,4 @@
+Fedora as control plane
+then other vms as nodes/workers
+
+Remember you can use Debian/RHEL based vms

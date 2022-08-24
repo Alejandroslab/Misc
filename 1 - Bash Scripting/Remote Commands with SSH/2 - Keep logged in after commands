@@ -1,0 +1,17 @@
+if you run the previous commands they will run but afterwards the
+SSH connection will automatically be closed
+
+To avoid this behaviour just use this loophole:
+
+
+ssh user@host  -t 'bash -l -c "ls;bash"'
+
+In this way bash will be invoked after the command 'ls'
+
+(This does not work if you use 'screens' the terminal windows manager)
+
+____
+
+Another reasonable way to do this (even if I have not tested it):
+
+ssh user@host -t 'ls; exec $SHELL -l'

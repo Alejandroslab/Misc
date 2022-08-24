@@ -1,0 +1,11 @@
+If you want to send a command immediately after having logged in via ssh just:
+
+ssh server_user@server $HOST ls; pwd
+
+This will run the commands 'ls' and 'pwd' immediately after having successfully logged in via ssh
+(after you have typed the password)
+
+
+You can also send like this
+
+ssh systemsboy@rhost.systemsboy.edu 'ls -l; ps -aux; whoami'

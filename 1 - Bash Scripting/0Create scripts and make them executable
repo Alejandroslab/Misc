@@ -1,0 +1,18 @@
+To make a bash script executable
+
+First create the script with extention '.sh'
+
+vim myscript.sh
+
+
+then make it exectuable with:
+
+sudo chmod +x myscript.sh
+
+finally you can run the script:
+./myscript.sh
+
+REMEMBER! If you want to change your script you do not need to run again:
+sudo chmod +x ....
+Just change it and run it!
+Have fun

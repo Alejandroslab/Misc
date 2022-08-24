@@ -1,0 +1,5 @@
+if windows or even Linux does not boot then you need to check your Hard Disk interface
+Usually it musst be IDE but it could be set as SCSI
+
+change it to IDE 0 - Master
+it should work!

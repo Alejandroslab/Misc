@@ -1,0 +1,3 @@
+docker images
+
+will retrieve all the installed images 

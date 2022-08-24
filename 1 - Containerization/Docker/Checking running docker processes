@@ -1,0 +1,7 @@
+docker ps
+
+to check all docker containers (even the exited ones):
+
+docker ps -a
+
+you will get also the last time when they run

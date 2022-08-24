@@ -6,3 +6,9 @@ At least this holds for any modern system that will not allow to keep on the Eth
 To enable it be sure to enable the option on BIOS and then in the Network Settings for the adapter
 
 Set Energy Savin and 'Wake with a magic packet'
+
+
+You can use the 'wakeonlan' package for python
+
+remember! you can wake up only machines that are on your subnet!
+you cannot wake machines that are on different subnet. You must connect to that subnet and than you can wake it

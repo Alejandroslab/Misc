@@ -1,0 +1,17 @@
+Just create a new file.
+For convenience you can add the extension '.py' but is not necessary
+It is just for you to recognize it as a python file
+
+Inside the file just put your code!
+
+print("Hello")
+
+save it!
+
+To run simply type:
+
+python myfile
+
+or if you have named it with the extension:
+
+python myfile.py

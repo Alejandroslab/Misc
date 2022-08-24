@@ -1,0 +1,7 @@
+Other Prerequisites:
+
+Certain ports are open on your machines.
+Swap disabled. You MUST disable swap in order for the kubelet to work properly.
+
+for ports you must check it with firewalld in RHEL
+disabling swap on fedora:
