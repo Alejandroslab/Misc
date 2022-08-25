@@ -1,0 +1,8 @@
+if we send to /dev/null simply we just sending the output to a place where vanishes
+
+the command will work but will not output anything to terminal
+
+
+nmap -sT 192.168.100.0/24 -p 3306 > /dev/null -oG MySQLscan
+
+the -G option allow to get a file that is greppable that means in which we can use 'grep' command 
