@@ -1,0 +1,13 @@
+Lossy compression is very effective in reducing the size of files, but the integrity of the
+information is lost. In other words, the file after compression is not exactly the same as
+the original. This type of compression works great for graphics, video, and audio files,
+where a small difference in the file is hardly noticeable—.mp3, .mp4, .png, and .jpg areall lossy compression algorithms. If a pixel in a .png file or a single note in an .mp3 file
+is changed, your eye or ear is unlikely to notice the difference—though, of course, music
+aficionados will say that they can definitely tell the difference between an .mp3 and an
+uncompressed .flac file. The strengths of lossy compression are its efficiency and
+effectiveness. The compression ratio is very high, meaning that the resulting file is
+significantly smaller than the original.
+
+However, lossy compression is unacceptable when you’re sending files or software and
+data integrity is crucial. For example, if you are sending a script or document, the
+integrity of the original file must be retained when it is decompressed.
