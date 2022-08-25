@@ -1,0 +1,5 @@
+just install the plugin 'Count Pages'
+then create a customized column with any name you want. It must be 'integer' type
+
+finally open preferences of the plugin and link the plugin withthe new column just created
+If you click on Count Pages it will count the number of pages and display it in the new column
