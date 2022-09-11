@@ -1,0 +1,28 @@
+vim /etc/crontab
+
+or
+crontab -e 
+
+
+M H DOM MON DOW USER COMMAND
+30 2 * * 1-­5 root /root/myscanningscript
+
+the fields: 
+
+first field: minutes
+second: hour
+third: day of month
+4: month
+5: day of week
+
+
+
+in this case day of month is *, that means that alll the days are valid.
+day of week are: 1-5 means from monday to friday
+
+you can also use some shortcuts like:
+
+@yearly or @midnight
+
+M H DOM MON DOW USER COMMAND
+@daily 		      root  /root/myscanningscript
