@@ -2,6 +2,13 @@ you have to use the restart option.
 
 The default restart policy is no.
 
+
+to use the restart option just:
+
+docker run --restart=always  .....
+
+
+
 For the created containers use docker update to update restart policy.
 
 docker update --restart=always 0576df221c0b
