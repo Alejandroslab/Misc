@@ -1,0 +1,13 @@
+Just focus on libraries section and click right on any of it and select 'Find' (or just press ctrl+f)
+
+The fucntion is not case sensitive.
+
+ you can type the name of the table you need and specify in which library to look.
+
+You can choose a specific library or all the libraries 
+
+If you want to list all the tables of a library just type '*' and then select the library.
+
+in the results list you can open the table, view columns and properties as usual. you can also view in excel.
+with that function SAS will create an excel file. (if a warning appears then just click ok)
+
