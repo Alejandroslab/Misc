@@ -1,0 +1,9 @@
+/*Change then 'WORK' libname with the name of the library you need. The name must remain in UPPERCASE*/
+
+data list;
+set sashelp.vtable;
+where libname='WORK';
+keep memname nobs;
+run;
+
+proc print noobs;run;

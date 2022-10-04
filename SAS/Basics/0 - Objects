@@ -1,0 +1,6 @@
+Objects are: datasets,catalogues, queries
+
+a library is a set of datasets, catalogues, queries
+You can create a new object with 'New' when focused in the 'Explorer' section
+
+A catalogue is needed when you want to create a query 

@@ -1,0 +1,16 @@
+This object is basically a query that will be stored inside a sas library.
+
+Remember it cannot be opened outside of sas therefore it may not be so useful..
+
+
+
+click right on 'Explorer' section and select New>Query
+
+A wizard will open
+just select the library and the dataset then clikc ok
+
+select the columns and click on the right arrow to add it to the selected columns 
+
+now highliht them selecting them and click on any button to create a 'count' query for examples 
+
+click ok and save it
