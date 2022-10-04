@@ -1,0 +1,11 @@
+you can use your hosts files to avoid connection to some site 
+
+just remember that:
+
+127.0.0.1 google.com
+
+first you need the IP where the website will be redirected and then the webiste or ip that you want to redirect 
+
+in this case if you redirect to 127.0.0.1 (localhost) the page will not work as will redirect to your own machine. 
+
+DO NOT PLACE BEFORE THE IP TO REDIRECT AND THEN THE DESTINATION AS THIS WILL NOT WORK 

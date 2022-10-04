@@ -7,7 +7,7 @@ QUIT;
 
 /*this will retrieve a lot of info about all the tables*/
 
-/*to count ALL the tables of ALL THE datasets:*/
+/*to COUNT ALL the tables of ALL THE datasets: (You can run this locally and not remotely)*/
 
 PROC SQL;
 SELECT count(*)
@@ -19,7 +19,7 @@ QUIT;
 PROC SQL;
 SELECT count(*)
 FROM DICTIONARY.TABLES
-WHERE UPCASE(LIBNAME)="TESTING";
+WHERE UPCSE(LIBNAME)="TESTING";
 QUIT;
 
 /*As this way to count may count also other objects than only datasets, this query should be run to COUNT ALL THE DATASETS IN ALL THE LIBRARIES as it may be more precise: */
