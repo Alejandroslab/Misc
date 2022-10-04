@@ -1,0 +1,20 @@
+/*As we know this proc will retrieve a lot of info about ALL the tables of ALL the libraries.*/
+
+PROC SQL;
+SELECT *
+FROM DICTIONARY.TABLES;
+QUIT;
+
+The column names that appear are practically labels. We need the real name to use it in order to select just the ones we need.
+
+to do that run these 2 lines:
+
+proc sql;
+describe table dictionary.tables;
+
+as we need the name of the library(libname), the name of the table (memname) and the number of observations (aka 'nobs') we will use:
+
+PROC SQL;
+SELECT libname, memname, nobs
+FROM DICTIONARY.TABLES;
+QUIT;

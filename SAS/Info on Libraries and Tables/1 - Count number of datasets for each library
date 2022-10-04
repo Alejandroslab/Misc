@@ -1,0 +1,16 @@
+/*just use the dictionary.tables*/
+
+PROC SQL;
+SELECT libname, count(memname)
+FROM DICTIONARY.TABLES
+group by libname;
+QUIT;
+
+
+then you can also refine it adding the size in megabytes and the column labes:
+
+PROC SQL;
+SELECT libname, count(memname) as Number_of_Tables, round(sum(filesize)/1000000, 0.1) as Sum_of_Table_Sizes_in_MB
+FROM DICTIONARY.TABLES
+group by libname;
+QUIT;

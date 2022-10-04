@@ -19,7 +19,7 @@ QUIT;
 PROC SQL;
 SELECT count(*)
 FROM DICTIONARY.TABLES
-WHERE UPCSE(LIBNAME)="TESTING";
+WHERE UPCASE(LIBNAME)="TESTING";
 QUIT;
 
 /*As this way to count may count also other objects than only datasets, this query should be run to COUNT ALL THE DATASETS IN ALL THE LIBRARIES as it may be more precise: */

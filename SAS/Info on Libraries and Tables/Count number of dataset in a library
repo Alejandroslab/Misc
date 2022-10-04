@@ -1,9 +1,0 @@
-/*Change then 'TESTING' libname with the name of the library you need. The name of the library must remain in UPPERCASE*/
-
-proc sql;
-select count(memname) into : dscount
-from dictionary.members
-where libname='TESTING' and memtype='DATA';
-quit;
-
-%put &dscount;

@@ -1,0 +1,12 @@
+when you send a command withotu a 'create table' you will get an output tha may be a list or an html.
+
+with the ods close command you can "close" the output destination this means 
+that you can prevent SAS to continue to print in the same output file 
+in this case the destination output is 'html' but can also be 'listing'
+
+ods html; close;
+ods html;
+
+with the second command you will open another "flow" 
+
+doing this will print your results in another html file 

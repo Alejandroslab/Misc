@@ -1,0 +1,4 @@
+It is possible to open a dataset that we have previously saved.
+
+Just double click on it!
+SAS will automatically be opened if closed and place the dataset in a library temporary called TMP1 (and not in the WORK library)
