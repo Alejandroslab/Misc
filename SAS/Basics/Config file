@@ -1,0 +1,21 @@
+SAS uses many files while it is running. However, some of these files, such as the following, are especially important from a user's perspective.
+
+SAS configuration files (SASVx.CFG by default, where x is the release number)
+SAS autoexec file (AUTOEXEC.SAS by default)
+user Profile catalog (Profile.sas7bcat)
+user printer Profile catalog (Profile2.sas7bcat)
+Work data library (“SAS Temporary Files” folder in your system's designated TEMP area)
+SAS Registry Files.
+
+In SAS 9.4, the location selected for SAS software installation is created and called SASHOME. !SASROOT is located at !SASHOME/SASFoundation/9.4. The default folder !SASHOME is located at c:\program files\SASHome. The default configuration location is 
+
+c:\program files\SASHome\SASFoundation\9.4\nls\en\sasv9.cfg
+
+Unlike the configuration file, a SAS autoexec file is not required in order to run SAS. But, if you do have an autoexec file, the default name is AUTOEXEC.SAS. SAS uses the following search order to find the AUTOEXEC.SAS file:
+
+Search the current folder.
+Note: For information about determining the current folder, see: Determining the Current Folder When SAS Starts .
+Search the paths that are specified by the Windows PATH environment variable.
+Search the root folder of the current drive.
+Search the folder that contains the SAS.EXE file.
+If an AUTOEXEC.SAS file is not present in one of these folders and if you did not specify the -AUTOEXEC option on the command line or within any of your configuration files, then SAS assumes that there is no autoexec file to process. For more information, see AUTOEXEC System Option: Windows .
