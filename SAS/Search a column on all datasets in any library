@@ -1,0 +1,7 @@
+/*just replace the name with the name of the columns that you are searching*/
+
+proc sql;s
+select libname, memname, name, format, informat, xtype
+from dictionary.columns
+where name='Price';
+quit;
