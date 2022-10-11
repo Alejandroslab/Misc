@@ -1,0 +1,14 @@
+Go to file 'Open Object' and then you will have the list of all the paths of any library
+
+you can also use:
+
+proc sql;
+select * 
+from dictionary.members;
+quit;
+
+/*this is better*/
+proc sql;
+select distinct(libname), path
+from dictionary.members;
+quit;

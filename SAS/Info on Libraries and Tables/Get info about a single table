@@ -1,0 +1,5 @@
+proc contents
+data=RWork.mytable;
+run;
+
+/*si possono ad esempio vedere le colonne della tabella gia ordinate alfabeticamente*/

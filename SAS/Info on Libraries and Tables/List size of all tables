@@ -1,0 +1,4 @@
+PROC SQL;
+SELECT libname, memname, round(filesize/1000000, 0.1) as Size_in_MB
+FROM DICTIONARY.TABLES;
+QUIT;

@@ -1,0 +1,8 @@
+dm 'odsresults' continue;
+
+/*the 'continue' word will keep the focus on the object 'odsresults'
+rememeber that you can also use the name 'SQL_Results' (you can find the name of the objects by clicking right on the object and selecting properties)*/
+
+dm 'SQL_Results' next;
+
+/*the only inconvenience is that you must press enter after running the command otherwise the results windows will not open*/
