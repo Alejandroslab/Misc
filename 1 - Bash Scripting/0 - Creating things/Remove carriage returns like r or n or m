@@ -1,0 +1,10 @@
+sometimes you may want to create a script on a notepad or notepad++
+However windows or mac usually put carriage return on files 
+
+these are characters put at the end of each line, hidden but visible by bash like '\r' or '\n' 
+
+to remove them:
+
+sed 's/\r$//' file_to_be_treated.txt > out.txt
+
+done!

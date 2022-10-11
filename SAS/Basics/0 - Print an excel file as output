@@ -1,0 +1,18 @@
+/*PER STAMPARE UN FILE DI EXCEL INVECE DI UN HTML*/
+/*tutti i file di output vengono inseriti nella lista dei Risultati. questa lista 
+prende il nome di 'listing'. Se non si vuole che il file compaia nel listing allora mettere:
+*/
+
+
+/*ods listing close;*/
+ods tagsets.excelxp file='C:\Users\Administrator\Desktop\text.xls' style=STATISTICAL
+options(sheet_name='Summary' sheet_interval='none');
+
+PROC SQL;
+SELECT libname, memname, round(filesize/1000000, 0.01) as Size_in_MB
+FROM DICTIONARY.TABLES;
+QUIT;
+
+ods tagsets.excelxp close;
+/*per riaprire l'opzione di listing: */
+/*ods listing;*/

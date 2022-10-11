@@ -1,0 +1,21 @@
+let's suppose we have a myfile.txt with a text on each line:
+
+1
+2
+3
+..
+
+
+this will edit the file "in place" 
+this means that the file will be overwritten
+
+sed -i s/$/" this is the text to add"/ myfile.txt
+
+i have added a space inside the quotes as otherwise you will get the text attached to the previous one
+
+the result will be:
+
+1 this is the text to add
+2 this is the text to add
+3 this is the text to add
+.. 

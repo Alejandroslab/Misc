@@ -1,0 +1,11 @@
+to create a csv with a list of numbers one per line:
+
+seq 1 100 > mycount.csv
+
+this will create a csv with a sequence of numbers startign from 1 to 100
+
+REMEMBER! you need to separate with a space between the operator '>' otherwise the commadn will not work
+
+e.g. this WILL NOT create anything:
+
+seq 1 100>mycount.csv
