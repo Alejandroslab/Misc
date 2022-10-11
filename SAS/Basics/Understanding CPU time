@@ -1,0 +1,1 @@
+CPU time is a slightly different measurement than Real Time. It is a measurement of how much ‘time’ the job spent utilising the CPU. More explicitly, how much of the job occurs in the CPU. In the above example, almost ⅓ of the real-time was spent inside the CPU. The rest of the time being used for read/write operations and system processes.
