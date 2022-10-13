@@ -1,1 +1,1 @@
-printf '%s \n' ${array[@]}>myarray.csv
+printf '%s \n' ${array[@]} > myarray.csv
