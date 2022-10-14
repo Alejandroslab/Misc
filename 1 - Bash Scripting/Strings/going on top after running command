@@ -1,1 +1,8 @@
-pipe to 'less' if you have a long output that you want to read from the beginning (without having to going up) 
+pipe to 'less' if you have a long output that you want to read from the beginning (without having to going up) or just use 'head -n 10' to print the very first 10 rows
+
+
+echo $(curl www.example.com) | less
+
+or
+
+echo $(curl www.example.com) | head -n 10
