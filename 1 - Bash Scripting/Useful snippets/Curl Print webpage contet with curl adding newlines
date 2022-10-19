@@ -1,0 +1,11 @@
+echo $(curl `#-vs` www.example.com) | sed 's/>/>\n/g'
+
+
+this will inspect www.example.com, elaborate the output going to new line after it finds the character '>' and finally print the output to stdout (terminal)
+
+in the curl command you can add option '-s' to not view the download progress bar 
+
+after running this if  we know the output is long we should pipe to 'head -n 10' or pipe to 'less' if we want to start at the beginning 
+
+(The `#-vs` option inside backticks are actually commented. Backticks are used to insert comments inside a command. If you remove them they will run
+remember -v will run a verbose mode at the beginning and -s will omit the progress bar )

@@ -5,6 +5,6 @@ backticks + # will allow you to place comments on the same line
 
 you can use it e.g. to indicate some possible options to a command like curl:
 
-curl `-vs` www.example.com
+curl `#-vs` www.example.com
 
 in this case curl will run without the options '-vs' 
