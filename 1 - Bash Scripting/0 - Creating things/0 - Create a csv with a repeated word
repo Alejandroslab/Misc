@@ -1,0 +1,5 @@
+to create a csv with a word repeated n times:
+
+yes this is a sentence | head -n 100 > myfile.csv
+
+this will print 100 times the word "this is a sentence"
