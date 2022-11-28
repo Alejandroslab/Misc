@@ -13,8 +13,15 @@ read -a answer
         else
                 echo "oh. I'm sorry ! bye!"
                 break
-                #or you can close your code with 'exit 1'
+                #break. will exit the 'if' statement. If you want to close all the script you can close your code with 'exit 1'
         fi
 
 
 done
+
+
+##########
+#sh myscript.sh
+
+#Sometimes you may incur in 'Bar loop variable' error
+#to overcome this errore you will need to make the script executable 

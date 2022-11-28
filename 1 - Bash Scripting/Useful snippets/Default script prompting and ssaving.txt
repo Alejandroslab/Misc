@@ -1,0 +1,4 @@
+echo -n "Are you ok? "
+read answer
+
+echo "The answer is: $answer" 

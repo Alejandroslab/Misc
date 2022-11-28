@@ -1,0 +1,26 @@
+echo
+echo "Ciao!"
+
+for (( ; ; ));
+do
+echo
+echo -n "Inserire nome:  "
+read  name
+echo
+echo "Il nome inserito è: $name"
+echo
+echo -n "Il nome inserito è corretto? "
+read -a answer
+
+        if   if [[ $answer == 'y' || $answer == 'yes' ]];then
+                echo "Ok!"
+                break
+        else
+                echo "va bene. ritenta"
+        fi
+
+
+done
+
+
+echo

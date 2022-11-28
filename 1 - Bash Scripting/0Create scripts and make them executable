@@ -4,6 +4,16 @@ First create the script with extention '.sh'
 
 vim myscript.sh
 
+to run it you can use 'sh'
+
+sh myscript.sh
+
+careful with this some parts (like the 'infinite' for loop) will not work
+
+in this case you will need to make it executable
+
+
+
 
 then make it exectuable with:
 
