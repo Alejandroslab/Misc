@@ -2,17 +2,25 @@ Object type requires hosted I/O
 
 SSH into the ESX-host that’s hosting the VM.
 
+ssh root@myserver 
+
+Type in the password
+
 Browse to the VM-folder containing the disk files.
 
 usually they are inside 
 
-/vmfs/volumes/MyHD/myOS
+cd /vmfs/volumes/
+
+select the hard disk and then the folder in which your vm is
+MyHD/myOS
 
 under myOS folder you will find myOS.vmdk and other files 
 
 now run:
 
 vmkfstools -x check “myOS.vmdk”
+
 it will appear:
 Disk needs repaired
 
