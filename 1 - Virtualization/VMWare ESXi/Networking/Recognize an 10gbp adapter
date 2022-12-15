@@ -1,0 +1,8 @@
+if you want 10gbps connection you cannot select the virutal E1000 adapter (that is the simulation of an old 1gbps adapter) 
+In thi case you must select the VMXNET3 adapter
+
+then check inside your vm 
+
+sudo ethtool eth0 -i 
+
+and check the '10000Mbps' under speed 

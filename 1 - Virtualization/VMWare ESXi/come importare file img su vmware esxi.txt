@@ -1,0 +1,26 @@
+this has been done for openwrt.
+
+openwrt only provides a raw image (.img) 
+
+in order to use in vmware esxi we need to convert it to vdmk
+
+we can use this:
+
+
+qemu-img convert -f raw -O vmdk ~/Downloads/openwrt-15.05-x86-64-combined-ext4.img openwrt-15.05-x86-64-combined-ext4.vmdk
+
+after converting go to vmware esxi and create a brand new vm 
+
+just leave everything as default
+
+turn off the vm as we basically need to replace the vdmk with our vdmk that we have converted.
+
+To do that go to the datastore where is placed the vdmk that has been created along with the vm creation
+
+delete it then after renaming the vmdk that has been converted (with the same name) just upload it 
+
+finally you will need to change the hard disk type from SCSI 0:0 to IDE 0
+
+done!
+
+this trick could work for any .img you have! 
