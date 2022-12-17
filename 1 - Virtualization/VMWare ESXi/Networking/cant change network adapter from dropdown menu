@@ -1,0 +1,12 @@
+sometime when you want to change the network adapter from the dropdown menu and click save 
+the edit is not saved
+
+how to fix?
+
+if you careful look at the settings you will see a checked check box near the connection you want to edit
+The flag states: 'Connected'
+uncheck only this checkbox! then click save
+
+Now reopen settings and try to change the network connrection again. this time you will be able too change the network connection
+
+if you can't change the connection  try to change first the network adapter with the same method of the checkbox (i.e. change only the adapter and then save and finally try again to change the connection)

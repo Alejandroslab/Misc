@@ -1,0 +1,12 @@
+In windows 10 you can leave the virtual NIC to 'E1000'
+VMXNET3 adapter seem to be not recognized in Windows 10 
+In windows 11 if you install vmware tools the adapter VMXNET3 will be recognised
+although transfer speed tests with 'iperf3' will get the same results of the adapter 'E1000' (like 2-3 gbps and not 10 gbps)
+
+If you install vmware tools in windows 10 you may get the same results (VMXNET3 will work but not reach 10gbps)(I did not try).
+
+If you use linux (ubuntu, ubuntu based distros, rhel based distros, you get 9-10gbps of transfer speed with 'iperf3' )
+
+Formally you will get a maximum speed of 1gbps and not 10gbps but this is just a formality
+as if you use 'iperf3' to inspect speed you will see that the NIC will perform up to 1gbps till 10gbps 
+

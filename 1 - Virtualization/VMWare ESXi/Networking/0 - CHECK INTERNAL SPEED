@@ -1,0 +1,27 @@
+When we have some new 10gbps nic we want to try it out
+
+you can do that using iperf3 
+this is available both for linux (sudo apt install iperf3) and both for windows
+
+For windows just download the .exe and then open cmd and move to the folder where the .exe is located 
+(use cd and 'dir' command to list the files (not 'ls' as it is not linux))
+
+Now commands are easy:
+
+in linux or cmd alternatively run in the listening machine:
+
+iperf3 -s 
+
+it will appear 'Server listening on 5201' 
+
+this means that this machine is listening 
+
+Now, to run the test use the other machine and run:
+
+iperf3 -c 192.168.1.1
+
+where 192.168.1.1 is the IP of your listening machine
+
+now iperf3 will run some times the transfer speed test 
+
+after finishing you will see the trasnfer speed! 
