@@ -1,0 +1,46 @@
+sudo apt install instaloader
+(or you can install with pip3)
+
+instaloader username 
+
+the profile must be public 
+
+
+
+To download all pictures and videos of a profile , as well as the profile picture, do
+
+instaloader profile [profile ...]
+
+where profile is the name of a profile you want to download. 
+
+ANYWAYS YOU CANNOT DOWNLOAD STORIES OR HIGHLIGHTS AS YOU WILL NEED TO USE --login OPTION THAT IS YOU MUST LOG IN WITH A USERNAME
+
+REMEMBER this command will download all the photos of the profile and will keep also the datestamps!
+
+
+It can be a nice idea to create a script that runs first sherlock and if it encounters an instagram profile tries to download all with instaloader (of course this will not be possible if the user has a private profile)
+
+
+
+MORE INSTRUCTIONS:
+
+Instead of only one profile, you may also specify a list of profiles.
+
+To later update your local copy of that profiles, you may run
+
+instaloader --fast-update profile [profile ...]
+
+If --fast-update is given, Instaloader stops when arriving at the first already-downloaded picture.
+
+Alternatively, you can use --latest-stamps to have Instaloader store the time each profile was last downloaded and only download newer media:
+
+instaloader --latest-stamps -- profile [profile ...]
+
+You can also set it as a cron job to keep analysing profiles.
+Instaloader as Cronjob
+
+Instaloader is suitable for running as a cronjob to periodically update your personal Instagram archive. 
+The --quiet option disables user interactions and logging of non-error messages. To non-interactively use Instaloader logged-in, create a session file:
+
+instaloader --login=your_username
+
