@@ -1,0 +1,5 @@
+sudo apt install sherlock
+
+sherlock username
+
+will look and retrieve all links with that username in all most common social media
