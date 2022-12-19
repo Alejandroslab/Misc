@@ -1,0 +1,5 @@
+tip
+set MTU at 9000 in your settings in vware 
+this will improve the speed doubling it
+
+from 2gbps to 4gbps
