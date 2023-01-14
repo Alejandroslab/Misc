@@ -1,0 +1,13 @@
+NAT is usually a device (router or firewall) that converts the private IP of a lan to a public ip and allows to redirect every request to the specific private ip that has requested it
+
+full:
+
+(NAT), which takes private IP addresses and turns them into public IP addresses. That way a corporate machine with a private IP address can send and receive packets from machines located outside the private network that have public IP addresses.
+
+Without NAT, large corporations with thousands or tens of thousands of computers would devour enormous quantities of public IPv4 addresses if they wanted to communicate with the outside world. But those IPv4 addresses are limited and nearing exhaustion to the point of having to be rationed.
+
+NAT helps alleviate the problem. With NAT, thousands of privately addressed computers can be presented to the public internet by a NAT machine such as a firewall or router.
+
+The way NAT works is when a corporate computer with a private IP address sends a packet to a public IP address outside the corporate network, it first goes to the NAT device. The NAT notes the packet’s source and destination addresses in a translation table.
+
+The NAT changes the source address of the packet to the public-facing address of the NAT device and sends it along to the external destination. 

@@ -1,0 +1,6 @@
+In order to access with ssh ipv6 just use the ipv6 full address
+
+
+For the most part, you should be able to SSH to an IPv6 address the same way you would to an IPv4. Simply specify the IP in your command, like so:
+
+ssh user@2607:f8b0:4009:816::200e
