@@ -4,7 +4,9 @@ go to main github folder and run:
 for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
 
 
-_______________________
+
+------all these projects has been inserted in a local file in my wrking machine
+______________________
 DEBIAN DESKTOP (current)
 
 xrdp not working --done
