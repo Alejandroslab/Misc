@@ -1,0 +1,6 @@
+sometimes we install new hd to our pc or workstation 
+
+it may occur thet we change tue order of the SATA slot to make less mess possible (aka cable management)
+anyways the system may not boot if the drive with the OS is not listed in the boot order
+
+therefore check the boot order in bios and be sure to have listed all the SATA drives so then you are sure that your OS will boot up even for the next times  
