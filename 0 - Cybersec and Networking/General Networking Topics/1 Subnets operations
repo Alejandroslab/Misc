@@ -1,0 +1,10 @@
+if you connect different devices via WiFi to different subnets there is NO WAY that you will be able to connect the 2 subnets unless you do not configure you router via static routing
+
+you must set a rule via static routing similar:
+if a packet arrives to subnet A send it to subnet B
+
+then set it anothe the pther way around (if you do not set it then that will be unidirectional)
+
+therefore:
+
+if a packet arrives to subnet B send it to subnet A 
