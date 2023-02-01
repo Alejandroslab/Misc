@@ -1,0 +1,12 @@
+this may happen when you transfer a vm image from QEMU to vmware esxi
+
+if you have installed RedHat VirtIO drivers and afterwards in VmWare you install the vmware tools then you will have that the ethernet connection will disconnect whenever you lock your pc
+
+
+this will cause an issue whenever you will try to access via rdp as you need to first wake the pc 
+
+
+to solve this just uninstall all RedHat VirtIO drivers as you will no longer need that 
+then everything should work again
+
+you can RDP without issues
