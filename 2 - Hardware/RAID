@@ -1,0 +1,121 @@
+You need to mount the disks or partitions that you want to use to a folder or mount point before the data within it is accessible. From there, you'll be able to navigate the filesystem and perform read or write operations.
+
+get disk or partiton )to chewck the names=:
+
+
+lsblk
+
+Usually the partition will automatically synced.
+
+then mount the raid with the 'assemble' option for mdadm command
+
+sudo mdadm --assemble /dev/md100 /dev/sdb3
+
+this will assembke from the virtual device 'md100' to the partition
+
+the try to mount:
+
+sudo mount /dev/md100 /mnt/myfolder
+
+this will try to mount to you desired folder
+
+
+
+ if you use 'sdb' or 'sdc' instead of md100 then you will get 'mount point busy'
+
+ If you get "wrong fs type, bad option, bad superblock on /dev/md127, missing codepage or helper program, or other error."
+ you may want to create a file system using:
+
+ sudo mkfs.ext4 /dev/md100
+
+
+then retry to mount
+
+
+CHECK filesystem and UUID
+
+blkid /dev/sdb1
+
+Manually mount partition using mount
+sudo mount -t ext4 /dev/sdb1 /mnt/mydisk
+
+REMMEBER to create the new folder before!
+In this case if 'mydisk' does not exist then you must create it before mounting
+
+
+to unmount:
+
+sudo umount /dev/sdb1
+
+YOu can use fstab to make persistent the mount points:
+
+    sudo vim /etc/fstab
+and add an entry like:
+
+/dev/sdb1       /home/user/disk ext4    defaults        0       0
+sudo
+To mount what is inside the fstab file run:
+
+sudo mount -a
+
+
+
+to assemble a raid:
+
+
+sudo mdadm --assemble --run /dev/md0 /dev/sdc1
+
+finally:
+
+sudo mount /dev/md0 /mnt/test
+
+if it says that is busy after the '--assemble' command thenu stop the partiton with:
+
+sudo mdadm --stop /dev/md0
+
+and retry
+
+
+sudo mdadm --assemble /dev/md0 /dev/sdb3
+
+and then mount
+
+
+remember that md0 may be used. Just change the number it can go to more than md256..
+
+
+sudo file -s /dev/md0
+
+will point out what kind of data is on the block device (like a dos partition table for example)
+
+
+If for:
+
+sudo mount /dev/md0 /mnt/test
+
+it says:wrong fs type, bad option, bad superblock on /dev/md0, missing codepage or helper program, or other error.
+
+
+
+You have to make a file system on your array. The raw array is just a block device, which can hold any kind of file system, or non file system data.
+
+To make a filesystem, you can issue
+
+sudo mkfs.ext4 /dev/md0
+
+to make a new filesystem with EXT4 (one of the more popular file systems; works great for all round use.
+
+After you've made a file system you can mount it using the command sudo mount /dev/md0 /home/ste/mnt/
+
+
+
+
+-----------
+
+for unmmount:
+
+sudo umount /dev/sdb1
+
+it is says that is busy just close your current bash session with 'exit' and retry (maybe you have logged in as root. If you are logged in as root you need to logouyt with 'exit')
+
+if you are on a GUI distribution you can unmount via GUI without having to use the terminal (right click...)
