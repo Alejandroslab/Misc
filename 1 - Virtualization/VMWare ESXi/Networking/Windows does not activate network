@@ -10,3 +10,7 @@ to solve this just uninstall all RedHat VirtIO drivers as you will no longer nee
 then everything should work again
 
 you can RDP without issues
+
+REMEMBER! you may need to uninstal and reinstall also vmware tools
+
+FINALLY JUST USE THE 'E1000' ADAPTER AND NOT THE 'VMXNET3'!
