@@ -3,7 +3,7 @@ go to main github folder and run:
 
 for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
 
-
+test
 
 ------all these projects has been inserted in a local file in my wrking machine
 ______________________
