@@ -1,0 +1,3 @@
+just run this:
+
+while :; do sudo docker ps; sleep 5; done
