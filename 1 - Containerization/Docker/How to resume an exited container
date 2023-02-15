@@ -7,13 +7,14 @@ to check all your docker processes
 you will see that they are 'exited' some time ago
 
 
-to run it again just run:
+
+
+docker start ContainerName
+
+or just run:
 
 docker start ID
 
-or
-
-docker start ContainerName
 
 where 'ID' and 'ContainerName' are the alphanumeric long ID (impossibile to rememeber) and the name that you set up when you run it for the first time (you can retrieve the ID and the name also by the command 'docker ps -a' under the 'ID' and 'NAME' columns )
 
