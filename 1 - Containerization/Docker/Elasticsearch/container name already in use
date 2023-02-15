@@ -1,0 +1,7 @@
+if the container name is already in use just remove it with:
+
+sudo docker rm mycontainer
+
+where mycontainer is the container name
+
+(use the container name as it is easier than remember or copying and pasting the ID)

@@ -1,0 +1,6 @@
+if you run a container with a wrong command the name will be anyways be busy
+
+to free the name just run:
+
+docker rm mycontainer
+

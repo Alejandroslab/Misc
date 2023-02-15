@@ -1,0 +1,79 @@
+#A list of possible aliases
+#copy this file in your ~/.bashrc file if in linux or ~/.zshrc file if in #macos catalina or newer IF YOU WANT TO MAKE THEM PERMANENT
+
+REMEMBER: if you create an alias that is preexinsting you will overwrite it!
+
+#An alias to naviage up one directory level
+alias up='cd ..'
+
+#one the exit quickly
+alias x="exit"
+
+# Doing a fast proxy, good for watching netflix and youtube without restrictions
+ alias proxy='ssh -C2qTnN -D 8080'
+
+ # Do something and receive a desktop alert when it completes `sudo apt-get install something | alert`
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+The essential and usual one handed listing aliases:
+
+  alias l='ls -laFT'
+  alias ll='ls -1aF'
+  alias k='ls -laFTrt'
+  alias kk='ls -1aFrt'
+  alias vv='virtualenv venv'
+   alias vvp='venv/bin/python'
+   alias vvpi='venv/bin/python setup.py develop'
+   alias yt='cd $HOME/downloads; youtube-dl --verbose'
+   alias yt3='cd $HOME/downloads; youtube-dl --verbose --extract-audio --audio-format mp3 '
+
+
+   ##alias for moving up:
+
+   alias ..='cd ..'
+  alias ...='cd ../..'
+  alias ....='cd ../../..'
+  alias .....='cd ../../../..'
+  alias ......='cd ../../../../..'
+
+
+A fun one:
+
+alias please = 'sudo'
+
+alias serv="ssh mylogin@myserv.com"
+
+alias work="cd /Users/myname/Sources/mycompany/myproject"
+
+
+
+
+
+alias ":q"="exit"
+
+
+
+
+
+    alias ..='cd ..'
+Others:
+
+    ...=../..
+	....=../../..
+	.....=../../../..
+	......=../../../../..
+	1='cd -'
+	2='cd -2'
+	3='cd -3'
+	4='cd -4'
+	5='cd -5'
+	6='cd -6'
+	7='cd -7'
+	8='cd -8'
+	9='cd -9'
+	_=sudo
+	afind='ack-grep -il'
+	d='dirs -v | head -10'
+	g=git
+	ga='git add'
+	gaa='git add --all'

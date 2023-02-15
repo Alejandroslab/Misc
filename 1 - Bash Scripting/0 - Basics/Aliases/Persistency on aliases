@@ -1,0 +1,8 @@
+vim .bashrc
+
+add there your aliases
+
+alias myalias="echo hello world"
+
+
+always keep no spaces between = and the double quotes

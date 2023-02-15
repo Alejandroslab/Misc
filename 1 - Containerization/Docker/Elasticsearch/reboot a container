@@ -2,10 +2,12 @@ if you make some some mistakes just check your docker processes:
 
 docker ps
 
-then stop it remove it and get back to works
+then stop it remove it and get back to work
 
 docker stop kibana
 
 docker rm kibana
 
 the conaitner name is the one you set with the 'docker run ...' command with the option '-name'
+
+

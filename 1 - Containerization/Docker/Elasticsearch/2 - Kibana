@@ -4,9 +4,16 @@ docker pull kibana:8.3.3
 
 now run kibana with the same network of elastic and without the '-d' option
 
+
+
 as you have already run elasticsearch without the '-d' option you will need to open another terminal !
 
-docker run --name kibana --net somenetwork -p 5601:5601 kibana:8.3.3
+
+
+
+docker run --name kibana --net elastic -p 5601:5601 kibana:8.3.3
+
+
 
 THIS COMMAND WILL NOT RUN IN BACKGROUND because you need to copy the verification code. In next runs you can just run it in background with the '-d' option
 

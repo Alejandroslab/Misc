@@ -1,13 +1,22 @@
+ACCESS TO ROOT
 to make things easier change to root:
 
 su
+
+
 in order to run 'docker' commands without password to be asked each time
+
+DISABLE FIREWALL
 
 then remember to disable your firewalld
 
 systemctl stop firewalld.service
 
 as you will not have possibilty to connect from remote machines
+
+
+
+
 
 STEPS:
 
@@ -16,7 +25,7 @@ basically you need to install elasticsearch that is the engine and then the fron
 you need to follow some steps
 
 
-SETUP
+MY SETUP
 
 i will do this with docker on a vm with opensuse. rememeber to increase you ram as this will need at least 2.5 gb of RAM. only elastic with docker will keep 2.3 gb OF RAM BUSY
 
