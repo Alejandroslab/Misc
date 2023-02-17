@@ -1,0 +1,1 @@
+docker update --restart=no the-container-you-want-to-disable-restart

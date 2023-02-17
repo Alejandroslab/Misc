@@ -1,6 +1,17 @@
 docker pull jenkins/jenkins:latest
 
-docker run -p 8080:8080 -p 50000:50000 jenkins
+
+
+docker run --restart=always -p 8080:8080 -p 50000:50000 jenkins/jenkins
+
+REMEMBER!
+if you do not run with the ports like
+
+docker run jenkins
+
+you will not access to jenkis as you did not place
+the port
+
 
 
 if the run command does not work because 'jenkins:latest' does not work then check the name with

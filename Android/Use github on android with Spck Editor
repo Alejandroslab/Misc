@@ -1,0 +1,26 @@
+Open the app go to Workspace -> Clone 
+
+For the first time click on 'Set credentials' 
+You need to insert email, the token code
+
+and the email for reference
+
+(remember to get the token code go to github settings> developer settings> personal access tokens> tokens (classic)  create a new token 
+
+and check only 'repo'. finally copy the code)
+
+
+after typing in username, token and email click ok
+
+now go to Menu>Navigation>Workspace
+
+then click on Clone
+
+finally you must (sigh..) type in the URL with https
+
+you must copy it from github and finally click on clone
+
+then you can make edits, commit and push even if it is a bit slow (when compared with WorkingCopy (iOS)
+
+you must first commit, wait and then click again to make the push.. (not the best solution possible but it seems that is the only app on android for github)
+

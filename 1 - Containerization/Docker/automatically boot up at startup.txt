@@ -9,8 +9,12 @@ docker run --restart=always  .....
 
 
 
-For the created containers use docker update to update restart policy.
+For the already booted containers use 'docker update' to update the restart policy.
 
 docker update --restart=always 0576df221c0b
 
-where 0576df221c0b is the container id.The default restart policy is no.
+where 0576df221c0b is the container id.
+The default restart policy is no.
+
+
+If you try to change the restart policy when the container is not booted up then you will get an error as this must be booted up first with 'docker run'
