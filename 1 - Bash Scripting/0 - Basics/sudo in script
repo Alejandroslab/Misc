@@ -1,0 +1,10 @@
+if you have a sudo command inside script you do not need to run the script with sudo
+
+
+do not need to 
+
+sudo sh myscript.sh
+
+just run 
+
+sh myscript.sh

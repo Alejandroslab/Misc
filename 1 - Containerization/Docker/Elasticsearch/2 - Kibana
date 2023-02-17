@@ -17,18 +17,28 @@ docker run --name kibana --net elastic -p 5601:5601 kibana:8.3.3
 
 THIS COMMAND WILL NOT RUN IN BACKGROUND because you need to copy the verification code. In next runs you can just run it in background with the '-d' option
 
+THEREFORE REMEMBER TO NOT STOP THE TERMINAL at least until the first config 
+YOU CAN CLOSE THE TERMINAL BUT NOT STOP IT WITH CTRL+C
 
 Kibana can be accessed by browser via http://localhost:5601 or http://host-ip:5601
 or clicking on the link that will appear in terminal that has attached a code activation
 
-It could ask again for an activation code that will appear in terminal. Copy that and access to the kibana platform
+BY DEFAULT YOU WILL BE ABLE TO ACCESS TO KIBANA EVEN REMOTELY THAT MEANS THAT YOU DO NOT NEED TO OPEN WITH LOCALHOST:5601 BUT CAN USE YOUR HOSTNAME FROM A REMOTE MACHINE
+
+
+It could ask again for an activation code that will appear in terminal. 
+Copy that and access to the kibana platform
 
 You can even connect from remote machines (remember to temporarily disable your firewall)
 
 done!
 
 
-Finally insert your elastic user and password. The password can be retrieved in the elasticsearch terminal
+Finally insert your elastic user and password. 
+THE DEFAULT USER IS: 'elastic'
+
+
+The password can be retrieved in the elasticsearch terminal
 
 
 REMEMBER you can now also close the terminal as kiban will continue running in background (as elasticsearch)!

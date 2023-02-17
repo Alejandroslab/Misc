@@ -16,9 +16,18 @@ docker network create elastic
 RUN 
 THIS COMMAND MUST NOT BE RUN IN BACKGROUND because you need to copy the enrollment token in kibana!
 
-(In next runs you can just run it in background with the '-d' option)
+THEREFORE REMEMBER TO NOT STOP THE TERMINAL at least until the first config 
+YOU CAN CLOSE THE TERMINAL BUT NOT STOP IT WITH CTRL+C
 
-docker run --name es01 --net elastic -p 9200:9200 -p 9300:9300 -it docker.elastic.co/elasticsearch/elasticsearch:8.3.3
+(In next runs you can just run it in background with the '-d' option. or if you have setup the restart always policy you will not need to run it)
+
+
+
+
+docker run --restart=always --name es01 --net elastic -p 9200:9200 -p 9300:9300 -it docker.elastic.co/elasticsearch/elasticsearch:8.3.3
+
+
+
 
 
 remember to change the 'tag' accordingly. the tag is the version usually. in this case is 8.3.3

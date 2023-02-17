@@ -1,3 +1,5 @@
+jenkins will occupy at least 2gb of ram
+
 docker pull jenkins/jenkins:latest
 
 
@@ -37,3 +39,27 @@ and done
 
 
 to check that is running. check java as jenkins is written in java
+
+
+
+
+______
+
+to retrieve the inital password
+
+sudo docker exec {CONTAINER_ID or CONTAINER_NAME} cat /var/jenkins_home/secrets/initialAdminPassword
+
+where {CONTAINER_ID or CONTAINER_NAME} is the container id or container name (replace the name or id)
+
+
+if there is no initialAdminPassword it means that you have changed it the initial password
+..
+
+you can also retrieve the password with 
+
+sudo docker logs {CONTAINER_ID or CONTAINER_NAME}
+
+
+
+
+

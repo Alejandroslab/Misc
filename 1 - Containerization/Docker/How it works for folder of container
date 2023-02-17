@@ -1,0 +1,14 @@
+container data will reside inside docker
+
+this means that if your app usually stores data inside the folder /var/myappfolder
+
+you will not find in the system /var but in the container /var
+
+to access to those files you will need a specific command
+
+
+sudo docker exec mycontainer_name_or_id cat /var/myappfolder
+
+
+where mycontainer_name_or_id will be the name of your container (check it with docker ps command. remember is not the name of the image but a name that sometimes is a random name created by your application (like jenkins create random names))
+
