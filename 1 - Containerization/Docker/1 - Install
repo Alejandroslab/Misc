@@ -4,3 +4,11 @@ sudo systemctl start docker
 
 
 sudo docker run hello-world
+
+usually you will first pull the image from a repository with
+
+docker pull jenkins/jenkins:latest
+
+anyways if you run directly 'docker run' docker will try to pull before running!
+
+so you do not need the command 'pull'
