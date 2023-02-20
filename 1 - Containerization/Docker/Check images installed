@@ -1,5 +1,0 @@
-sudo docker images
-
-will retrieve all the installed images 
-
-it is better to change to root otherwise will have to use sudo everytime

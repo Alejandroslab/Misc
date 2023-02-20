@@ -1,3 +1,0 @@
-docker system prune
-
-will delete all network configs that are not used by any network 

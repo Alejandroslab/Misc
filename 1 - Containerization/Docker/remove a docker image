@@ -1,4 +1,0 @@
-sudo docker rm 
-removes containers by their name or ID 
-
-you first need to stop the docker image
