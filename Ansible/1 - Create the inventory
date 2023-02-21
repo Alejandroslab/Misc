@@ -1,0 +1,7 @@
+Create an inventory by adding the IP address or fully qualified domain name (FQDN) of one or more remote systems to /etc/ansible/hosts
+
+you can add there just an ip (any of you want)
+
+to verify the hosts:
+
+ansible all --list-hosts

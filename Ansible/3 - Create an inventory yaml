@@ -1,0 +1,32 @@
+You can add an host to /etc/hosts or
+you can create anywhere a file called 
+
+inventory.yaml
+
+
+in wich you must place this code:
+
+
+
+virtualmachines:
+  hosts:
+    vm01:
+      ansible_host: 192.0.2.50
+    vm02:
+      ansible_host: 192.0.2.51
+    vm03:
+      ansible_host: 192.0.2.52
+
+
+you can delete vm02 and vm03 even with '#' (that is placing comment
+
+now check the inventory with:
+
+ansible-inventory -i inventory.yaml --list
+
+and you can also ping it.
+if everythins is green you are ok
+
+
+ansible virtualmachines -m ping -i inventory.yaml
+

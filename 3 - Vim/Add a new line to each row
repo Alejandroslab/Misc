@@ -1,0 +1,12 @@
+just type:
+
+
+:%norm A*
+
+to append th symbol '*' to each row
+
+and type 
+
+:%norm I* 
+
+to prepend '*' to each row

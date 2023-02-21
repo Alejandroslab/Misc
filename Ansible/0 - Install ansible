@@ -1,0 +1,9 @@
+you can install ansible in several different ways
+in rhel 
+
+sudo yum install ansible
+
+you can also do that with python 
+
+
+python3 -m pip install --user ansible
