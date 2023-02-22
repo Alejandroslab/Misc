@@ -1,0 +1,5 @@
+When you run a playbook you get an output with 'cows' that are bizarre stilized cows that appears along with the commands
+
+if you want to omit the cows:
+
+ANSIBLE_NOCOWS=1 ansible-playbook -i inventory.yaml playbook.yaml -K
