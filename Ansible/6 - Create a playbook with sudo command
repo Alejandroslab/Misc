@@ -1,4 +1,6 @@
-   to use sudo you must do 2 things:
+   to use sudo you must consider first that the nodes must have the same password then 
+   
+   do 2 things:
    
    first thing to do is to change the running playbook command adding an option that is '-K'
    
