@@ -1,6 +1,38 @@
 When you have multiple tasks some commands may fail as the command will not work.
 
-to continue performing the other tasks and indicate the one that has failed with 'ignored' at the 'PLAY RECAP' 
+To continue performing the other tasks and indicate the one that has failed with 'ignored' at the 'PLAY RECAP' 
 
 You can use the option 'ignore_errors: true' on any command
+
+
+
+    - name: Check systemctl ufw
+      shell:
+          "sudo systemctl status ufw"
+      register: system1
+      changed_when: false
+      become: true
+      ignore_errors: true
+      tags: system1
+
+    - debug: msg="{{system1.stdout_lines}}"
+
+
+    - name: Check docker running images
+      shell:
+          "sudo docker ps"
+      register: docker1
+      changed_when: false
+      become: true
+      ignore_errors: true
+      tags: docker1
+
+    - debug: msg="{{docker1.stdout_lines}}"
+
+
+in these tasks if the first one will fail like the 'ufw' does not exist or is not installed on a system then will continue
+the next one that is 'sudo docker ps'
+
+If we do not place 'ignore_errors:true' then the playbook will stop for the machine that fails and will not perform the other tasks
+
 
