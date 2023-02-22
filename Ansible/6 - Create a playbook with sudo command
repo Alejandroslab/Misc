@@ -1,0 +1,33 @@
+   to use sudo you must do 2 things:
+   
+   first thing to do is to change the running playbook command adding an option that is '-K'
+   
+   ansible-playbook -i inventory.yaml playbook.yaml -K
+
+   
+  then in the playbook :
+  
+  
+  
+ -name: My Playbook
+    #define the hosts that are defined in the inventory.yaml
+    hosts: datacenter1
+    tasks:
+  
+    - name: Check docker running images
+        shell:
+            "sudo docker ps"
+        register: docker1
+        changed_when: false
+        become: true
+        tags: docker1
+
+      - debug: msg="{{docker1.stdout_lines}}"
+
+    
+ 
+    then we must add the 'become: true'
+    
+    done!
+    
+    
