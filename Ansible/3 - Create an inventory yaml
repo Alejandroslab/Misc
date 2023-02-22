@@ -17,10 +17,16 @@ virtualmachines:
     vm03:
       ansible_host: 192.0.2.52
 
+The first line is the name of the pool of nodes. in this case is 'virtualmachines'
 
-you can delete vm02 and vm03 even with '#' (that is placing comment
+Then you specify the nodes. In this case are called 'vm01', 'vm02', 'vm03'
+you can delete vm02 and vm03 even with '#' (that is placing a comment)
 
-now check the inventory with:
+You can also change it with any name you want. Be sure to not add any squared brackets '['']'
+Finally add the ips or just use the hostnames.
+
+
+Now check the inventory with:
 
 ansible-inventory -i inventory.yaml --list
 
