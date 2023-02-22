@@ -1,0 +1,9 @@
+if you want to add the localhost (127.0.0.1) you must treat it as another host 
+
+therefore copy your own public key 
+
+
+ssh-copy-id -i ~/.ssh/id_rsa.pub myuser@localhost
+
+
+after doing that the 'localhost' host will work 
