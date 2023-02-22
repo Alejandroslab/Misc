@@ -1,4 +1,3 @@
-
   - name: My Playbook
     #define the hosts that are defined in the inventory.yaml
     hosts: datacenter1
@@ -24,6 +23,20 @@
     
     'debug: msg="{{datecmd.stdout}}"' allows to print the output 
     You will just print the variable 'datecmd' that you have previously registered. 
+    
+    
+    Finally for some commands you may want to use '.stdout_lines'
+    As the common '.stdout' will not list properly the files with some commands like 'ls':
+    
+    - name: List home files
+      shell:
+          "ls -lah"
+      register: lsout
+      changed_when: false
+      tags: lsout
+
+    - debug: msg="{{lsout.stdout_lines}}"
+
     
     
     
