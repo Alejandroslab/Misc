@@ -4,9 +4,7 @@ Playbook
 A list of plays that define the order in which Ansible performs operations, from top to bottom, to achieve an overall goal.
 
 Play
-An ordered list of tasks that maps to managed nodes in an inventory.Play
 An ordered list of tasks that maps to managed nodes in an inventory.
-
 
 
 To create a playbook you need an inventory.yaml and a playbook.yaml
@@ -28,13 +26,31 @@ Add the following content to playbook.yaml:
      ansible.builtin.debug:
        msg: Hello world
 	   
-To run the playbook:
+	   
+The 'name' is just the playbook name 
+'hosts' are just the name of the pool of nodes that you have specified in inventory.yaml. 
+In this case is 'virtualmachines' but can be any name you like
 
+Finally you get after 'tasks' the list of tasks
+In this case a ping is used and also an hello world
+
+Anyways these are builtin function that are function that comes prebuilt with ansible itself 
+
+You can use the shell
+
+
+To run the playbook:
 
 
 ansible-playbook -i inventory.yaml playbook.yaml
 
-you get this output
+you get an output with 'cows' that are bizarre stilized cows that appears with the commands
+
+if you want to omit the cows 
+
+ANSIBLE_NOCOWS=1 ansible-playbook -i inventory.yaml playbook.yaml -K
+
+
 
 PLAY [My first play] **********************************************************************
 
