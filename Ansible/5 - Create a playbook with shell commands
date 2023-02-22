@@ -1,1 +1,31 @@
-m
+
+  - name: My Playbook
+    #define the hosts that are defined in the inventory.yaml
+    hosts: datacenter1
+    tasks:
+
+    - name: Check Date with Shell command
+      shell:
+         "date"
+      register: datecmd
+      changed_when: false
+      tags: datecmd
+      
+    - debug: msg="{{datecmd.stdout}}"
+    
+    
+    
+    With 'shell' you may put the command between double quotes " ".
+    
+    with 'register' you will store the output with a name. in this case with a variable called 'datecmd'
+    
+    'changed_when: false' allows to omit the 'changed' message
+    
+    
+    'debug: msg="{{datecmd.stdout}}"' allows to print the output 
+    You will just print the variable 'datecmd' that you have previously registered. 
+    
+    
+    
+    
+    
