@@ -1,0 +1,6 @@
+When you have multiple tasks some commands may fail as the command will not work.
+
+to continue performing the other tasks and indicate the one that has failed with 'ignored' at the 'PLAY RECAP' 
+
+You can use the option 'ignore_errors: true' on any command
+
