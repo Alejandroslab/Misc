@@ -1,0 +1,6 @@
+#!/bin/bash
+#change 'myuser' with your user
+
+for ip in `cat /home/list_of_servers`; do
+    ssh-copy-id -i ~/.ssh/id_rsa.pub myuser@$ip
+done
