@@ -1,4 +1,0 @@
-You have to install
-a container runtime AND kubeadm on ALL the hosts of the cluster.
-
-The container runtime can be CRI, the default on or docker engine + cri-dockerd component.
