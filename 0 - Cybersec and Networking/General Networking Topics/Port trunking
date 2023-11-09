@@ -1,3 +1,0 @@
-
-    Port Trunking cannot break the speed limit of a single Ethernet device, but it offers a sufficient amount of bandwidth for multiple users connecting at the same time. For example, if two 1Gb NICs are used for Port Trunking, the aggregated network bandwidth will be increased to 2Gb, but the network speed will remain 1Gb.
-    Available system resources and the maximum read/write speeds of the storage devices on the NAS will greatly influence the overall bandwidth.

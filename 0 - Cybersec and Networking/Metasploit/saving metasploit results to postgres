@@ -1,3 +1,0 @@
-metasploit uses postgres as default db 
-
-you can install it and then configure metasploit to save scan and results on postgres db 

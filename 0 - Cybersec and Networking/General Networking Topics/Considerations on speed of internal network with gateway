@@ -1,8 +1,0 @@
-In a Small business office or home network
-
-the default gateway corresponds to the router
-
-But:
-Even routers have limits when it comes to CPU/RAM, so if it is too busy routing, it may take a while to respond to ICMP packets
-
-Generally, your modem or router (or both) will create a speed bottleneck if not working properly

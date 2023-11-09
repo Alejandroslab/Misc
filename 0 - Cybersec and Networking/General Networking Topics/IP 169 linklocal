@@ -1,2 +1,0 @@
-If no DHCP server is found, then it is common practice for OSs to assign an IP address in the 169.254.x.x range,  
-which is referred to as a link-local IP address, just an internal ip not available for internet
