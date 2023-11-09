@@ -1,3 +1,0 @@
-proc print data=sashelp.class;
-/*var  Name Age Weight;*/
-run;

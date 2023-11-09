@@ -1,9 +1,0 @@
-A library is a set of tables. It may be seen as the database in sql reserved. A database in basically a set of tables.
-
-WORK is the temporary SAS data set library that is erased after you exit SAS.
-
-SASHELP contains sample data sets
-SASUSER library that allows to save your data
-
-when you use a one-level name that is NOT 'WORK.TEST' but only 'TEST' sas will assign the default
-library by default (the default library is WORK)
