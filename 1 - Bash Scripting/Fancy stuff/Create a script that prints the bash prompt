@@ -8,3 +8,11 @@ You can start from this command to write the script
 PROBLEM
 the problem is that some bash will not accept this kind of syntax.
 Also it seems that you cannot insert the command in a script...
+
+In the script you will get the error 
+
+myscript.sh: 3: Bad substituion
+
+where the number stands for the line in which the command is insert 
+
+
