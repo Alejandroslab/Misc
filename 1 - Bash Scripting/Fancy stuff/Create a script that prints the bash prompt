@@ -15,4 +15,6 @@ myscript.sh: 3: Bad substituion
 
 where the number stands for the line in which the command is insert 
 
+It seems that is not possible without xdotools
+
 
