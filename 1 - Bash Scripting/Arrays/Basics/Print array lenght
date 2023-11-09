@@ -1,3 +1,0 @@
-size of the array:
-
-echo ${#files[@]}

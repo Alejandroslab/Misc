@@ -1,9 +1,0 @@
-ifconfig >> myifconfigfile
-
-or:
-
-ifconfig >>myifconfigfile.txt
-
-in mac then you can open it with textedit:
-
-open myconfigfile.txt

@@ -1,5 +1,0 @@
-ADD AN ELEMENT (appending):
-
-distros=("Ubuntu" "Red Hat" "Fedora")
-
-distros+=("Kali")

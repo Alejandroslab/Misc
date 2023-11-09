@@ -1,3 +1,0 @@
-ls -s mylink originalfile
-
-will create a file called 'mylink' that is a link to the file 'originalfile'

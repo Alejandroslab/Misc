@@ -1,7 +1,0 @@
-After you create n-new files with:
-
-touch file-{1..10}.txt
-
-You may want to add text to them:
-
-for file in *; do echo "This is my content" >> $file ; done

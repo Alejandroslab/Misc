@@ -1,7 +1,0 @@
-myfile | sed 's/>/>\n/g'
-
-YOU CAN PIPE TO SED 
-
-this will go to new line after the character '>'
-more formally will replace the character '>' with '>\n' that will be interpreted as > and a new line
-piping allows to make it temporary 
