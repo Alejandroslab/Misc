@@ -1,0 +1,10 @@
+to print the bash prompt you must use this:
+
+ echo "${PS1@P}"
+
+You can start from this command to write the script 
+
+
+PROBLEM
+the problem is that some bash will not accept this kind of syntax.
+Also it seems that you cannot insert the command in a script...
